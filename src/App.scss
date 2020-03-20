@@ -7,20 +7,26 @@
   flex-direction: column;
 
   & .topNav {
-    background-color: black;
+    background-color: rgb(10, 10, 10);
     color: white;
     width: 100vw;
-    height: 3vh;
-    display: flex;
-    justify-content: center;
-  }
-
-  & .bottomNav {
-    background-color: blue;
+    height: 4vh;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  & .bottomNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-direction: row;
-    width: 100vw;
+    width: 90vw;
+
+    & .centerNav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 }
