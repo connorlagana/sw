@@ -1,4 +1,26 @@
 .Nav {
   background-color: aqua;
   height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  & .topNav {
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  & .bottomNav {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100vw;
+  }
 }
