@@ -4,7 +4,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
+  position: fixed;
+  
   & .topNav {
     background-color: rgb(10, 10, 10);
     color: white;
@@ -45,9 +46,11 @@
       width: 30vw;
       font-family: "Baloo Da 2", cursive;
       text-transform: lowercase;
+      cursor: pointer;
 
       & :hover {
-        color: rgb(66, 54, 230);
+        transition: all 0.3s;
+        color: rgb(30, 127, 156);
       }
     }
     & .rightNav {
@@ -59,6 +62,7 @@
       & img {
         height: 3vh;
         margin: 1vh;
+        cursor: pointer;
       }
     }
   }
