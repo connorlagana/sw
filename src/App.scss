@@ -1,6 +1,5 @@
 .Nav {
-  background-color: aqua;
-  height: 10vh;
+  height: 11vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,6 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 600;
   }
 
   & .bottomNav {
@@ -22,11 +22,28 @@
     align-items: center;
     flex-direction: row;
     width: 90vw;
+    height: 7vh;
+
+    & .leftNav {
+      font-size: 3vh;
+      font-weight: 800;
+    }
 
     & .centerNav {
       display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 30vw;
+    }
+    & .rightNav {
+      display: flex;
       justify-content: center;
       align-items: center;
+
+      & img {
+        height: 3vh;
+        margin: 1vh;
+      }
     }
   }
 }
