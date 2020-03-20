@@ -14,6 +14,9 @@
     justify-content: center;
     align-items: center;
     font-weight: 600;
+    font-size: 2vh;
+    font-family: "Baloo Da 2", cursive;
+    text-transform: lowercase;
   }
 
   & .bottomNav {
@@ -27,6 +30,12 @@
     & .leftNav {
       font-size: 3vh;
       font-weight: 800;
+      font-family: "Baloo Da 2", cursive;
+      text-transform: lowercase;
+      width: 30vw;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
     }
 
     & .centerNav {
@@ -34,11 +43,18 @@
       justify-content: space-around;
       align-items: center;
       width: 30vw;
+      font-family: "Baloo Da 2", cursive;
+      text-transform: lowercase;
+
+      & :hover {
+        color: rgb(66, 54, 230);
+      }
     }
     & .rightNav {
       display: flex;
-      justify-content: center;
+      justify-content: flex-end;
       align-items: center;
+      width: 30vw;
 
       & img {
         height: 3vh;
