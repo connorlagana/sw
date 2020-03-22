@@ -293,6 +293,9 @@
           margin: 1vh;
           cursor: pointer;
         }
+        & button:hover {
+          color: rgb(30, 127, 156);
+        }
       }
     }
   }
