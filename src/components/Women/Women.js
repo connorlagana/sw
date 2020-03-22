@@ -2,11 +2,11 @@ import React from "react";
 import WomenHero from "./WomenHero.js";
 import WomenBottom from "./WomenBottom.js";
 
-function Women() {
+function Women(props) {
   return (
     <div className="Women">
-      <WomenHero />
-      <WomenBottom />
+      <WomenHero gender={props.gender} />
+      <WomenBottom gender={props.gender} />
     </div>
   );
 }

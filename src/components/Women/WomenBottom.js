@@ -1,6 +1,7 @@
 import React from "react";
+import WomenItems from "./WomenItems.js";
 
-function WomenBottom() {
+function WomenBottom(props) {
   return (
     <div className="WomenBottom">
       <div className="leftWomenBottomDiv">
@@ -41,7 +42,9 @@ function WomenBottom() {
           </div>
         </div>
       </div>
-      <div className="rightWomenBottomDiv">Right Div</div>
+      <div className="rightWomenBottomDiv">
+        <WomenItems items={props.gender.items} />
+      </div>
     </div>
   );
 }
