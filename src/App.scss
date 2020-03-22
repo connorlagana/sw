@@ -180,14 +180,13 @@
   // background-color: red;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: row;
 
   & .leftWomenBottomDiv {
-    // background-color: teal;
+    background-color: teal;
     width: 20vw;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
 
@@ -309,8 +308,13 @@
 
 .WomenItems {
   width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   & .items {
     width: 80vw;
+    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -332,7 +336,7 @@
   }
 
   & .sortItemsBy {
-    width: 100vw;
+    width: 80vw;
     height: 8vh;
     background-color: yellow;
     display: flex;
