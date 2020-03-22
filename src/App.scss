@@ -276,6 +276,24 @@
           background-color: rgb(97, 151, 138);
         }
       }
+
+      & .sizeButtons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        // background-color: antiquewhite;
+
+        & button {
+          border: none;
+          background-color: rgba(0, 0, 0, 0);
+          height: 1.4vw;
+          width: 1.4vw;
+          font-size: 0.7vw;
+          margin: 1vh;
+          cursor: pointer;
+        }
+      }
     }
   }
 
