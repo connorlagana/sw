@@ -4,6 +4,7 @@ import "./App.scss";
 import { Route } from "react-router-dom";
 import Nav from "./components/Nav.js";
 import Hero from "./components/Hero.js";
+import Women from "./components/Women/Women.js";
 
 class App extends Component {
   constructor() {
@@ -13,7 +14,8 @@ class App extends Component {
     return (
       <div className="App">
         <Nav />
-        <Hero />
+        <Route exact path="/" component={Hero} />
+        <Route exact path="/women" component={Women} />
       </div>
     );
   }

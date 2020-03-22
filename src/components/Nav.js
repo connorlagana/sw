@@ -1,18 +1,19 @@
 import React from "react";
 import profile from "../images/profile.png";
 import cart from "../images/cart.png";
+import { Link } from "react-router-dom";
 
 function Nav() {
   return (
     <div className="Nav">
       <div className="topNav">Free shipping Over $90. U.S. Only</div>
       <div className="bottomNav">
-        <div className="leftNav">Suburban Wave</div>
+        <Link className="leftNav" to="/">Suburban Wave</Link>
         <div className="centerNav">
-          <div>New</div>
-          <div>Women</div>
-          <div>Men</div>
-          <div>Misc.</div>
+          <Link to="/new" id="navLink">New</Link>
+          <Link to="/women" id="navLink">Women</Link>
+          <Link to="/men" id="navLink">Men</Link>
+          <Link to="/misc" id="navLink">Misc.</Link>
         </div>
         <div className="rightNav">
           <img src={profile} />
