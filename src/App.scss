@@ -183,7 +183,6 @@
   flex-direction: row;
 
   & .leftWomenBottomDiv {
-    background-color: teal;
     width: 20vw;
     display: flex;
     justify-content: flex-start;
@@ -312,21 +311,21 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  
   & .items {
-    width: 80vw;
-    background-color: red;
+    width: 60vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     & .itemInd {
-      width: 16vw;
-      margin: 1vw 0.5vw 1vw 0.5vw;
+      width: 14vw;
+      margin: 1vw 0.5vw 1vh 0.5vw;
       color: black;
       font-weight: 700;
       font-family: "Source Sans Pro", sans-serif;
       & img {
-        width: 16vw;
+        width: 14vw;
       }
       & #itemPrice {
         color: gray;
@@ -336,10 +335,11 @@
   }
 
   & .sortItemsBy {
-    width: 80vw;
+    width: 59vw;
     height: 8vh;
-    background-color: yellow;
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
   }
 }
 
