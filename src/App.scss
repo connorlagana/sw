@@ -566,6 +566,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    margin-top: 5vh;
 
     & div {
       display: flex;
@@ -600,7 +601,7 @@
     align-items: center;
     width: 90vw;
     height: 70vh;
-
+    margin-top: 10vh;
     & img {
       height: 70vh;
       width: 60vw;
@@ -614,10 +615,27 @@
       flex-direction: column;
       height: 70vh;
       width: 30vw;
+      padding-left: 4vh;
 
       & label {
         font-family: "Liu Jian Mao Cao", cursive;
-        font-size: 4vh;
+        font-size: 3.8vh;
+        transform: rotate(-20deg);
+      }
+
+      .tnl {
+        font-size: 6vh;
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 600;
+
+        & div {
+          margin-top: -2vh;
+        }
+      }
+      & #sosrMessage {
+        font-size: 1.9vh;
+        font-family: "Source Sans Pro", sans-serif;
+        margin-top: -20vh;
       }
     }
   }

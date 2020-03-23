@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import secondPic from "../../images/OurStory/girlsAbout.jpg";
 import firstPic from "../../images/OurStory/goodVibesAbout.jpg";
 import surfer from "../../images/OurStory/surfer.jpg";
+import { withRouter } from "react-router-dom";
+
+import Fade from "react-reveal/Fade";
 
 function OurStory() {
   return (
@@ -26,7 +29,7 @@ function OurStory() {
             <div>New Luxury</div>
           </div>
 
-          <div>
+          <div id="sosrMessage">
             From the beach - to the gym - to the office - we make clothes that
             reflect today's on the go looks... along with a splash of positivity
             and humor.
@@ -37,4 +40,4 @@ function OurStory() {
   );
 }
 
-export default OurStory;
+export default withRouter(OurStory);
