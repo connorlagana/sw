@@ -327,6 +327,9 @@
       & img {
         width: 14vw;
       }
+      & #itemName {
+        text-transform: uppercase;
+      }
       & #itemPrice {
         color: gray;
         font-weight: 400;
@@ -348,12 +351,103 @@
 
 .Footer {
   width: 96vw;
-  height: 15vw;
+  height: 18vw;
   margin: 2vw;
   background-color: rgb(228, 228, 228);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 
   & .leftFooter {
-    
+    width: 48vw;
+    height: 18vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    & .lfTop {
+      width: 48vw;
+      height: 14vw;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      & .lftDiv {
+        height: 12vw;
+        width: 10vw;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+
+        & #lftTitle {
+          font-size: 1vw;
+          margin: 1vw 0 1vw 0;
+          color: rgb(30, 127, 156);
+          font-weight: 700;
+        }
+
+        & .lftUnder {
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          flex-direction: column;
+
+          & #lftLink {
+            margin-top: 0.4vw;
+            color: black;
+            font-size: 0.7vw;
+            text-decoration: none;
+          }
+
+          & #lftLink:hover {
+            color: rgb(30, 127, 156);
+          }
+        }
+      }
+    }
+    & .lfBottom {
+      width: 48vw;
+      height: 4vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 0.8vw;
+    }
+  }
+
+  & .rightFooter {
+    width: 48vw;
+    height: 18vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+
+    & div {
+      width: 20vw;
+      text-align: center;
+      color: rgb(30, 127, 156);
+    }
+  }
+}
+
+.ContactUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  #contactTitle {
+    width: 80vw;
+    height: 24vh;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    font-family: "Source Sans Pro", sans-serif;
   }
 }
 

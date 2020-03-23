@@ -32,6 +32,7 @@ import k1 from "./images/womens/K1.jpg";
 import k2 from "./images/womens/K2.jpg";
 import l1 from "./images/womens/L1.jpg";
 import l2 from "./images/womens/L2.jpg";
+import ContactUs from "./components/Contact";
 
 class App extends Component {
   constructor(props) {
@@ -177,6 +178,9 @@ class App extends Component {
         </Route>
         <Route path="/men">
           <Women gender={this.state.men} />
+        </Route>
+        <Route path="/contactus">
+          <ContactUs />
         </Route>
         <Footer />
       </div>
