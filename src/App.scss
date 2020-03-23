@@ -582,14 +582,43 @@
       & label {
         position: absolute;
         color: rgb(255, 255, 255);
-        font-size: 5vw;
+        font-size: 7vw;
         font-weight: 600;
-        text-transform: uppercase;
+        font-family: "Liu Jian Mao Cao", cursive;
+        padding: 1vw;
       }
     }
 
     & .fosl {
       justify-content: flex-end;
+    }
+  }
+
+  & .secondOS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 70vh;
+
+    & img {
+      height: 70vh;
+      width: 60vw;
+      object-fit: cover;
+    }
+
+    & .sosr {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      flex-direction: column;
+      height: 70vh;
+      width: 30vw;
+
+      & label {
+        font-family: "Liu Jian Mao Cao", cursive;
+        font-size: 4vh;
+      }
     }
   }
 }
