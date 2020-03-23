@@ -14,7 +14,12 @@ class ContactUs extends Component {
             <div className="cblDiv">
               <div id="cbldTitle">Customer Service</div>
               <div className="cbldBottom">
-                <a href="customerservice@suburbanwave.com">Email: customerservice@suburbanwave.com</a>
+                <a
+                  class="mailtoui"
+                  href="mailto:customerservice@suburbanwave.com"
+                >
+                  Email: customerservice@suburbanwave.com
+                </a>
                 <div>Phone: 973-783-3799</div>
               </div>
             </div>
@@ -29,7 +34,12 @@ class ContactUs extends Component {
             <div className="cblDiv">
               <div id="cbldTitle">Wholesale Inquiries</div>
               <div className="cbldBottom">
-                <div>Email: info@suburbanwave.com</div>
+                <a
+                  class="mailtoui"
+                  href="mailto:customerservice@suburbanwave.com"
+                >
+                  Email: customerservice@suburbanwave.com
+                </a>
                 <div>Phone: 973-783-3799</div>
               </div>
             </div>
@@ -37,8 +47,15 @@ class ContactUs extends Component {
           <form className="contactForm">
             <input type="text" name="name" placeholder="Name" />
             <input type="email" name="email" placeholder="Email" />
-            <input type="text" name="message" placeholder="Message" />
-            <input type="submit" value="Submit" />
+            <textarea
+              id="message"
+              type="text"
+              name="message"
+              placeholder="Message"
+            />
+            <div id="contactButton">
+              <input type="submit" value="Submit" />
+            </div>
           </form>
         </div>
       </div>
