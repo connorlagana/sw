@@ -38,7 +38,7 @@ function Footer() {
           <div className="lftDiv">
             <div id="lftTitle">About Us</div>
             <div className="lftUnder">
-              <Link to="/contactus" id="lftLink">
+              <Link to="/ourstory" id="lftLink">
                 Our Story
               </Link>
             </div>

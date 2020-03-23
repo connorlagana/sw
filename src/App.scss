@@ -95,8 +95,10 @@
 
   & img {
     width: 45vw;
+    height: 84vh;
     margin: 0.5vw;
     position: relative;
+    object-fit: cover;
   }
 
   & button {
@@ -550,6 +552,44 @@
           background-color: white;
         }
       }
+    }
+  }
+}
+
+.OurStory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  & .firstOS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    & div {
+      display: flex;
+      align-items: center;
+      margin: 0.2vw;
+      & img {
+        width: 45vw;
+        height: 84vh;
+
+        position: relative;
+        object-fit: cover;
+      }
+
+      & label {
+        position: absolute;
+        color: rgb(255, 255, 255);
+        font-size: 5vw;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+    }
+
+    & .fosl {
+      justify-content: flex-end;
     }
   }
 }

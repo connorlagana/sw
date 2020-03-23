@@ -21,6 +21,9 @@ function Nav() {
           <Link to="/men" id="navLink">
             Men
           </Link>
+          <Link to="/youth" id="navLink">
+            Youth
+          </Link>
           <Link to="/misc" id="navLink">
             Misc.
           </Link>

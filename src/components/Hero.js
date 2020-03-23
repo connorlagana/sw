@@ -15,7 +15,7 @@ function Hero() {
       <div>
         <img src={secondModel} />
         <button>
-          <Link to="/men" id="shopButtonLink">Shop Men</Link>
+          <Link to="/new" id="shopButtonLink">What's New?</Link>
         </button>
       </div>
     </div>
