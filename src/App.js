@@ -178,6 +178,7 @@ class App extends Component {
         <Route path="/men">
           <Women gender={this.state.men} />
         </Route>
+        <Footer />
       </div>
     );
   }
