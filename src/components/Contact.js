@@ -10,22 +10,28 @@ class ContactUs extends Component {
       <div className="ContactUs">
         <div id="contactTitle">Contact Us</div>
         <div className="contactBottom">
-          <div>
-            <div>
-              <div>Customer Service</div>
-              <div>Email: customerservice@suburbanwave.com</div>
-              <div>Phone: 973-783-3799</div>
+          <div className="cbLeft">
+            <div className="cblDiv">
+              <div id="cbldTitle">Customer Service</div>
+              <div>
+                <div>Email: customerservice@suburbanwave.com</div>
+                <div>Phone: 973-783-3799</div>
+              </div>
             </div>
-            <div>
-              <div>Address</div>
-              <div>Suburban Wave</div>
-              <div>87 Tower Mountain Drive</div>
-              <div>Bernardsville, NJ 07924</div>
+            <div className="cblDiv">
+              <div id="cbldTitle">Address</div>
+              <div>
+                <div>Suburban Wave</div>
+                <div>87 Tower Mountain Drive</div>
+                <div>Bernardsville, NJ 07924</div>
+              </div>
             </div>
-            <div>
-              <div>Wholesale Inquiries</div>
-              <div>Email: info@suburbanwave.com</div>
-              <div>Phone: 973-783-3799</div>
+            <div className="cblDiv">
+              <div id="cbldTitle">Wholesale Inquiries</div>
+              <div>
+                <div>Email: info@suburbanwave.com</div>
+                <div>Phone: 973-783-3799</div>
+              </div>
             </div>
           </div>
           <form className="contactForm">

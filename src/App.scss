@@ -459,6 +459,35 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+
+    & .cbLeft {
+      width: 48vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: bisque;
+
+      & .cblDiv {
+        background-color: aqua;
+        width: 40vw;
+        margin-top: 1vw;
+
+        & #cbldTitle {
+          font-size: 1.3vw;
+          font-weight: 500;
+        }
+      }
+    }
+
+    & .contactForm {
+      width: 48vw;
+      background-color: yellow;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
   }
 }
 
