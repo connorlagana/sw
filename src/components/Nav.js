@@ -8,15 +8,27 @@ function Nav() {
     <div className="Nav">
       <div className="topNav">Free shipping Over $90. U.S. Only</div>
       <div className="bottomNav">
-        <Link className="leftNav" to="/">Suburban Wave</Link>
+        <Link className="leftNav" to="/">
+          Suburban Wave
+        </Link>
         <div className="centerNav">
-          <Link to="/new" id="navLink">New</Link>
-          <Link to="/women" id="navLink">Women</Link>
-          <Link to="/men" id="navLink">Men</Link>
-          <Link to="/misc" id="navLink">Misc.</Link>
+          <Link to="/new" id="navLink">
+            New
+          </Link>
+          <Link to="/women" id="navLink">
+            Women
+          </Link>
+          <Link to="/men" id="navLink">
+            Men
+          </Link>
+          <Link to="/misc" id="navLink">
+            Misc.
+          </Link>
         </div>
         <div className="rightNav">
-          <img src={profile} />
+          <Link to="login">
+            <img src={profile} />
+          </Link>
           <img src={cart} />
         </div>
       </div>

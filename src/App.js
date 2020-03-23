@@ -5,6 +5,9 @@ import Nav from "./components/Nav.js";
 import Hero from "./components/Hero.js";
 import Women from "./components/Women/Women.js";
 import Footer from "./components/Footer.js";
+import Login from "./components/Login/Login.js";
+
+import { loginUser, registerUser, verifyUser } from "./services/api_helper";
 
 import womenHeroPic from "./images/womenHero.jpg";
 import menHeroPic from "./images/menHero.jpg";
@@ -39,6 +42,8 @@ class App extends Component {
     super(props);
 
     this.state = {
+      currentUser: false,
+      errorText: "",
       women: {
         pic: womenHeroPic,
         firstTitle: "Wom",
@@ -164,6 +169,50 @@ class App extends Component {
     };
   }
 
+  handleLogin = async (e, loginData) => {
+    e.preventDefault();
+    if (!loginData.username || !loginData.password) {
+      this.setState({
+        errorText: "You must supply a username AND password"
+      });
+    } else {
+      const currentUser = await loginUser(loginData);
+      this.setState({
+        currentUser
+      });
+    }
+  };
+
+  handleRegister = async (e, registerData) => {
+    e.preventDefault();
+    if (!registerData.username || !registerData.password) {
+      this.setState({
+        errorText: "You must supply a username AND password"
+      });
+    } else {
+      const currentUser = await registerUser(registerData);
+      this.setState({
+        currentUser
+      });
+    }
+  };
+
+  handleVerify = async () => {
+    const currentUser = await verifyUser();
+    if (currentUser) {
+      this.setState({
+        currentUser
+      });
+    }
+  };
+
+  handleLogout = () => {
+    this.setState({
+      currentUser: false
+    });
+    localStorage.removeItem("authToken");
+  };
+
   componentDidMount() {
     console.log(this.state);
   }
@@ -181,6 +230,9 @@ class App extends Component {
         </Route>
         <Route path="/contactus">
           <ContactUs />
+        </Route>
+        <Route path="/login">
+          <Login />
         </Route>
         <Footer />
       </div>
