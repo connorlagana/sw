@@ -454,7 +454,6 @@
 
   .contactBottom {
     width: 96vw;
-    background-color: rgb(223, 169, 223);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -466,10 +465,8 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      background-color: bisque;
 
       & .cblDiv {
-        background-color: aqua;
         width: 40vw;
         margin-top: 1vw;
 
@@ -477,12 +474,17 @@
           font-size: 1.3vw;
           font-weight: 500;
         }
+
+        & .cbldBottom {
+          font-size: 0.8vw;
+          font-weight: 300;
+          margin-top: 0.5vw;
+        }
       }
     }
 
     & .contactForm {
       width: 48vw;
-      background-color: yellow;
       display: flex;
       justify-content: center;
       align-items: center;
