@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import secondPic from "../../images/OurStory/girlsAbout.jpg";
 import firstPic from "../../images/OurStory/goodVibesAbout.jpg";
 import surfer from "../../images/OurStory/surfer.jpg";
+import jumping from "../../images/OurStory/jumping.jpg";
+import beachRoad from "../../images/OurStory/beachRoad.jpg";
 import { withRouter } from "react-router-dom";
 
 import Fade from "react-reveal/Fade";
@@ -39,10 +41,10 @@ function OurStory() {
 
       <div className="thirdOS">
         <div className="tosl">
-          <div>Get into trouble</div>
+          <div>What's the wave?</div>
           <div>Origin</div>
           <div>
-            Suburban Wave was born in 2006 in Venice, California. Two college
+            Suburban Wave was born in 2019 in Avon-by-the-Sea, New Jersey. Two college
             friends realized that the cubicle life wasn’t for them so they quit
             their corporate day jobs. Following the rules that someone else made
             up no longer made sense. Instead of settling for a good life, they
@@ -50,13 +52,16 @@ function OurStory() {
             beginning of the largest financial crisis ever, they risked
             everything to start a company. A company that would allow them to
             ignore the rules, have fun and not take themselves too seriously.
-            That spirit lives on today, as Sub_Urban Riot has grown into a
+            That spirit lives on today, as Suburban Wave has grown into a
             global brand with a unique combination of positivity and humor; and
             a commitment to always re-imagine the good life.
           </div>
         </div>
         <div className="tosr">
-          
+          <div>
+            <img src={jumping} />
+          </div>
+          <img src={beachRoad} />
         </div>
       </div>
     </div>
