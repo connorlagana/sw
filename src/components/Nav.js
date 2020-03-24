@@ -8,9 +8,9 @@ function Nav() {
     <div className="Nav">
       <div className="topNav">Free shipping Over $90. U.S. Only</div>
       <div className="bottomNav">
-        <Link className="leftNav" to="/">
-          Suburban Wave
-        </Link>
+        <div className="leftNav">
+          <Link to="/" id="subrbanWave">Suburban Wave</Link>
+        </div>
         <div className="centerNav">
           <Link to="/new" id="navLink">
             New

@@ -31,13 +31,15 @@
       font-size: 3vh;
       font-weight: 800;
       font-family: "Source Sans Pro", sans-serif;
-
       width: 30vw;
       display: flex;
       justify-content: flex-start;
       align-items: center;
-      text-decoration: none;
-      color: black;
+
+      & #subrbanWave {
+        text-decoration: none;
+        color: black;
+      }
     }
 
     & .centerNav {

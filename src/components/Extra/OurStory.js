@@ -36,6 +36,29 @@ function OurStory() {
           </div>
         </div>
       </div>
+
+      <div className="thirdOS">
+        <div className="tosl">
+          <div>Get into trouble</div>
+          <div>Origin</div>
+          <div>
+            Suburban Wave was born in 2006 in Venice, California. Two college
+            friends realized that the cubicle life wasn’t for them so they quit
+            their corporate day jobs. Following the rules that someone else made
+            up no longer made sense. Instead of settling for a good life, they
+            decided to go against the grain to pursue a great one. So, at the
+            beginning of the largest financial crisis ever, they risked
+            everything to start a company. A company that would allow them to
+            ignore the rules, have fun and not take themselves too seriously.
+            That spirit lives on today, as Sub_Urban Riot has grown into a
+            global brand with a unique combination of positivity and humor; and
+            a commitment to always re-imagine the good life.
+          </div>
+        </div>
+        <div className="tosr">
+          
+        </div>
+      </div>
     </div>
   );
 }
