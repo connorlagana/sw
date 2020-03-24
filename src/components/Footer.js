@@ -13,9 +13,6 @@ function Footer() {
               <Link to="/contactus" id="lftLink">
                 Contact Us
               </Link>
-              <Link to="/contactus" id="lftLink">
-                Affiliate Program
-              </Link>
             </div>
           </div>
           <div className="lftDiv">
