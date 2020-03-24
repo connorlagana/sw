@@ -41,27 +41,32 @@ function OurStory() {
 
       <div className="thirdOS">
         <div className="tosl">
-          <div>What's the wave?</div>
-          <div>Origin</div>
-          <div>
-            Suburban Wave was born in 2019 in Avon-by-the-Sea, New Jersey. Two college
-            friends realized that the cubicle life wasn’t for them so they quit
-            their corporate day jobs. Following the rules that someone else made
-            up no longer made sense. Instead of settling for a good life, they
-            decided to go against the grain to pursue a great one. So, at the
-            beginning of the largest financial crisis ever, they risked
-            everything to start a company. A company that would allow them to
-            ignore the rules, have fun and not take themselves too seriously.
-            That spirit lives on today, as Suburban Wave has grown into a
-            global brand with a unique combination of positivity and humor; and
-            a commitment to always re-imagine the good life.
+          <div className="whatWave">
+            <div>What's the wave?</div>
+          </div>
+          <div className="originDiv">
+            <div id="originTitle">Origin</div>
+            <div id="originDesc">
+              Suburban Wave was born in 2019 in Avon-by-the-Sea, New Jersey. Two
+              college friends realized that the cubicle life wasn’t for them so
+              they quit their corporate day jobs. Following the rules that
+              someone else made up no longer made sense. Instead of settling for
+              a good life, they decided to go against the grain to pursue a
+              great one. So, at the beginning of the largest financial crisis
+              ever, they risked everything to start a company. A company that
+              would allow them to ignore the rules, have fun and not take
+              themselves too seriously. That spirit lives on today, as Suburban
+              Wave has grown into a global brand with a unique combination of
+              positivity and humor; and a commitment to always re-imagine the
+              good life.
+            </div>
           </div>
         </div>
         <div className="tosr">
           <div>
-            <img src={jumping} />
+            <img src={beachRoad} id="beachRoad" />
           </div>
-          <img src={beachRoad} />
+          <img src={jumping} id="jumpingGirl" />
         </div>
       </div>
     </div>

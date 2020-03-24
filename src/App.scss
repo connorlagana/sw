@@ -641,6 +641,74 @@
       }
     }
   }
+
+  & .thirdOS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100vw;
+    margin-top: 10vh;
+    // height: 100vh;
+    & .tosl {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      height: 70vh;
+
+      & .whatWave {
+        font-family: "Liu Jian Mao Cao", cursive;
+        color: black;
+        font-size: 3.8vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 50vw;
+
+        & div {
+          transform: rotate(45deg);
+        }
+      }
+
+      .originDiv {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 40vw;
+
+        #originTitle {
+          margin-bottom: 2vh;
+          font-size: 6vh;
+          font-family: "Source Sans Pro", sans-serif;
+          font-weight: 600;
+        }
+
+        #originDesc {
+          font-size: 1.6vh;
+          font-family: "Source Sans Pro", sans-serif;
+        }
+      }
+    }
+
+    & .tosr {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      // height: 100vh;
+
+      & div {
+        & #beachRoad {
+          height: 50vh;
+        }
+      }
+      #jumpingGirl {
+        width: 50vw;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 600px) {
