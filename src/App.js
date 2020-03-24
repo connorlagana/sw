@@ -7,6 +7,7 @@ import Women from "./components/Women/Women.js";
 import Footer from "./components/Footer.js";
 import Login from "./components/Login/Login.js";
 import OurStory from "./components/Extra/OurStory.js"
+import PrivacyPolicy from "./components/Extra/PrivacyPolicy.js"
 
 import { loginUser, registerUser, verifyUser } from "./services/api_helper";
 
@@ -237,6 +238,9 @@ class App extends Component {
         </Route>
         <Route path="/ourstory">
           <OurStory />
+        </Route>
+        <Route path="/privacy-policy">
+          <PrivacyPolicy />
         </Route>
         <Footer />
       </div>
