@@ -771,12 +771,64 @@
         font-size: 1.6vw;
         font-weight: 500;
         margin-bottom: 1vh;
+        font-family: "Source Sans Pro", sans-serif;
       }
 
       & #ppMessage {
         font-size: 1vw;
         font-weight: 400;
+        font-family: "Source Sans Pro", sans-serif;
       }
+    }
+  }
+}
+
+.Shipping {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  & #shippingTitle {
+    width: 96vw;
+    height: 24vh;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+  }
+
+  & .bottomShipping {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 2vh 0 2vh 0;
+    width: 40vw;
+    font-family: "Source Sans Pro", sans-serif;
+
+    & #bsTitle {
+      font-size: 1.4vw;
+    }
+
+    & #bsMessage {
+      margin-top: 1vw;
+      font-size: 1vw;
+      color: black;
+      text-decoration: none;
+    }
+
+    & #bsMessageA {
+      margin-top: 1vw;
+      font-size: 1vw;
+      color: black;
+      text-decoration: none;
+    }
+
+    & #bsMessageA:hover {
+      color: rgb(30, 127, 156);
     }
   }
 }
