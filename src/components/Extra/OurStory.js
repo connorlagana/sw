@@ -25,7 +25,7 @@ function OurStory() {
       <div className="secondOS">
         <img src={surfer} />
         <div className="sosr">
-          <label>Blame it on my youth</label>
+          <label>What's the wave?</label>
           <div className="tnl">
             <div>The</div>
             <div>New Luxury</div>
@@ -42,7 +42,7 @@ function OurStory() {
       <div className="thirdOS">
         <div className="tosl">
           <div className="whatWave">
-            <div>What's the wave?</div>
+            <div>Blame it on my youth</div>
           </div>
           <div className="originDiv">
             <div id="originTitle">Origin</div>

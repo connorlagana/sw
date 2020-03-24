@@ -21,11 +21,8 @@ function Footer() {
           <div className="lftDiv">
             <div id="lftTitle">Customer Service</div>
             <div className="lftUnder">
-              <Link to="/contactus" id="lftLink">
+              <Link to="/shipping" id="lftLink">
                 Shipping
-              </Link>
-              <Link to="/contactus" id="lftLink">
-                Returns & Exchanges
               </Link>
               <Link to="/contactus" id="lftLink">
                 Terms & Conditions

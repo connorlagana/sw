@@ -154,7 +154,7 @@
       height: 60vh;
       width: 70vw;
       object-fit: cover;
-      background-color: aqua;
+      background-color: rgb(196, 196, 196);
     }
     & #wo {
       // background-color: blue;
@@ -493,7 +493,7 @@
           }
 
           & a:hover {
-            color: rgb(97, 151, 138);
+            color: rgb(30, 127, 156);
           }
         }
       }
@@ -589,6 +589,11 @@
         font-weight: 600;
         font-family: "Liu Jian Mao Cao", cursive;
         padding: 1vw;
+        transition: all 0.5s;
+      }
+
+      & label:hover {
+        color: rgb(30, 127, 156);
       }
     }
 
@@ -629,6 +634,7 @@
         font-size: 6vh;
         font-family: "Source Sans Pro", sans-serif;
         font-weight: 600;
+        color: rgb(30, 127, 156);
 
         & div {
           margin-top: -2vh;
@@ -684,6 +690,7 @@
           font-size: 6vh;
           font-family: "Source Sans Pro", sans-serif;
           font-weight: 600;
+          color: rgb(30, 127, 156);
         }
 
         #originDesc {
