@@ -30,7 +30,7 @@ function Footer() {
               <Link to="/contactus" id="lftLink">
                 Terms & Conditions
               </Link>
-              <Link to="/contactus" id="lftLink">
+              <Link to="/privacy-policy" id="lftLink">
                 Privacy Policy
               </Link>
             </div>
