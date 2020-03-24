@@ -746,11 +746,31 @@
   }
 
   & .bottomPrivacy {
-    width: 60vw;
+    width: 45vw;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
+    margin: 4vw 0 4vw 0;
+
+    & .ppDiv {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      margin: 2vh 0 2vh 0;
+
+      & #ppTitle {
+        font-size: 1.6vw;
+        font-weight: 500;
+        margin-bottom: 1vh;
+      }
+
+      & #ppMessage {
+        font-size: 1vw;
+        font-weight: 400;
+      }
+    }
   }
 }
 
