@@ -649,6 +649,7 @@
     flex-direction: row;
     width: 100vw;
     margin-top: 10vh;
+    margin-bottom: 10vh;
     // height: 100vh;
     & .tosl {
       display: flex;
@@ -688,24 +689,39 @@
         #originDesc {
           font-size: 1.6vh;
           font-family: "Source Sans Pro", sans-serif;
+          margin-bottom: 1vh;
         }
       }
     }
 
     & .tosr {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-end;
+      // flex-direction: column;
       // height: 100vh;
 
-      & div {
+      & .overPic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        height: 51vh;
+        width: 31vh;
+        margin-top: 2vw;
+        margin-left: -2vw;
+        position: absolute;
         & #beachRoad {
           height: 50vh;
+          width: 30vh;
+          object-fit: cover;
         }
       }
       #jumpingGirl {
         width: 50vw;
+        height: 84vh;
+        position: relative;
+        object-fit: cover;
       }
     }
   }
