@@ -4,6 +4,7 @@ import { Route } from "react-router-dom";
 import Nav from "./components/Nav.js";
 import Hero from "./components/Hero.js";
 import Women from "./components/Women/Women.js";
+import WomenIndy from "./components/Women/WomenIndy.js";
 import Footer from "./components/Footer.js";
 import Login from "./components/Login/Login.js";
 import OurStory from "./components/Extra/OurStory.js";
@@ -48,6 +49,7 @@ class App extends Component {
       currentUser: false,
       errorText: "",
       women: {
+        name: "women",
         pic: womenHeroPic,
         firstTitle: "Wom",
         secondTitle: "en",
@@ -59,7 +61,8 @@ class App extends Component {
             secondPic: a2,
             colors: ["white"],
             sizesAvailable: ["xs", "s", "m", "l", "xl"],
-            price: 45
+            price: 45,
+            key: 1
           },
           {
             name: "Heart EMB Teddy Zip Up Jacket",
@@ -68,7 +71,8 @@ class App extends Component {
             secondPic: b2,
             colors: ["black"],
             sizesAvailable: ["xs", "s", "m", "l", "xl"],
-            price: 98
+            price: 98,
+            key: 2
           },
           {
             name: "Favorite Daughter Loose Tee - HTHR",
@@ -77,7 +81,8 @@ class App extends Component {
             secondPic: c2,
             colors: ["gray"],
             sizesAvailable: ["xs", "s", "m", "l"],
-            price: 45
+            price: 45,
+            key: 3
           },
           {
             name: "Camo Stripe Cambridge Sweats",
@@ -86,7 +91,8 @@ class App extends Component {
             secondPic: d2,
             colors: ["black", "green"],
             sizesAvailable: ["l", "xl"],
-            price: 78
+            price: 78,
+            key: 4
           },
           {
             name: "Favorite Daughter Fitted Vanessa Tee - HTHR",
@@ -95,7 +101,8 @@ class App extends Component {
             secondPic: e2,
             colors: ["gray"],
             sizesAvailable: ["xs", "s", "m", "l", "xl"],
-            price: 45
+            price: 45,
+            key: 5
           },
           {
             name: "The Trinity Poppy Tee",
@@ -105,7 +112,8 @@ class App extends Component {
             colors: ["white", "black", "gray"],
             sizesAvailable: ["l", "xl"],
             price: 114,
-            sale: 72
+            sale: 72,
+            key: 6
           },
           {
             name: "Favorite Daughter Fitted Vanessa Tee - White",
@@ -114,7 +122,8 @@ class App extends Component {
             secondPic: g2,
             colors: ["white"],
             sizesAvailable: ["xs", "s"],
-            price: 45
+            price: 45,
+            key: 7
           },
           {
             name: "Be Brave and Kind Loose Tee - Black",
@@ -123,7 +132,8 @@ class App extends Component {
             secondPic: h2,
             colors: ["black"],
             sizesAvailable: ["s", "l", "xl"],
-            price: 38
+            price: 38,
+            key: 8
           },
           {
             name: "The Trinity Loose Tee",
@@ -133,7 +143,8 @@ class App extends Component {
             colors: ["black", "white", "gray"],
             sizesAvailable: ["s"],
             price: 114,
-            sale: 72
+            sale: 72,
+            key: 9
           },
           {
             name: "Be a Nice Human Loose Tee - White",
@@ -142,7 +153,8 @@ class App extends Component {
             secondPic: j2,
             colors: ["white"],
             sizesAvailable: ["l", "xl"],
-            price: 38
+            price: 38,
+            key: 10
           },
           {
             name: "Homebody Willow Sweatshirt",
@@ -151,7 +163,8 @@ class App extends Component {
             secondPic: k2,
             colors: ["black"],
             sizesAvailable: ["s", "l", "xl"],
-            price: 64
+            price: 64,
+            key: 11
           },
           {
             name: "Work Hard Loose Tee",
@@ -160,11 +173,13 @@ class App extends Component {
             secondPic: l2,
             colors: ["white"],
             sizesAvailable: ["s", "l", "xl"],
-            price: 38
+            price: 38,
+            key: 12
           }
         ]
       },
       men: {
+        name: "men",
         pic: menHeroPic,
         firstTitle: "M",
         secondTitle: "en"
@@ -246,6 +261,12 @@ class App extends Component {
         <Route path="/shipping">
           <Shipping />
         </Route>
+        <Route
+          path="/:key"
+          render={props => {
+            return <WomenIndy item={props.match.params.key} />;
+          }}
+        />
         <Footer />
       </div>
     );

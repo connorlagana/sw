@@ -43,7 +43,7 @@ function WomenBottom(props) {
         </div>
       </div>
       <div className="rightWomenBottomDiv">
-        <WomenItems items={props.gender.items} />
+        <WomenItems gender={props.gender} />
       </div>
     </div>
   );
