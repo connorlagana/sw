@@ -19,8 +19,8 @@ class WomenIndy extends Component {
   render() {
     return (
       <div className="WomenIndy">
-        <div>Hello World</div>
-        <img src={this.state.firstPic} />
+        {/* <div>Hello World</div> */}
+        {/* <img src={this.state.firstPic} /> */}
       </div>
     );
   }
