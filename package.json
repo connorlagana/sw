@@ -7,7 +7,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
-    "hamburger-react": "^1.0.6",
+    "hamburger-react": "^1.2.0",
     "mailtoui": "^1.0.3",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
@@ -15,6 +15,9 @@
     "react-reveal": "^1.2.2",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.5.5"
   },
   "scripts": {
     "start": "react-scripts start",
