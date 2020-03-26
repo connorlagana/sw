@@ -12,9 +12,9 @@ class SignUp extends Component {
   render() {
     return (
       <div className="SignUp">
-        <div>
-          <div>Sign Up</div>
-          <form>
+        <div className="signUpRect">
+          <div id="signUpTitle">Sign Up</div>
+          <form className="signUpForm">
             <input type="text" name="fName" placeholder="First Name" />
             <input type="text" name="lName" placeholder="Last Name" />
             <input type="email" name="email" placeholder="Email" />
@@ -27,7 +27,7 @@ class SignUp extends Component {
             <div>I forgot my password</div>
             <button>Register</button>
           </form>
-          <div>
+          <div className="alreadyAcct">
             <div>Already have an account?</div>
             <div>Login here</div>
           </div>
