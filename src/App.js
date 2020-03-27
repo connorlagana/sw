@@ -12,6 +12,8 @@ import OurStory from "./components/Extra/OurStory.js";
 import PrivacyPolicy from "./components/Extra/PrivacyPolicy.js";
 import Shipping from "./components/Extra/Shipping.js";
 
+import { allPosts } from "./services/api_helper.js";
+
 import { loginUser, registerUser, verifyUser } from "./services/api_helper";
 
 import womenHeroPic from "./images/womenHero.jpg";
@@ -41,6 +43,10 @@ class App extends Component {
       }
     };
   }
+
+  fetchData = async () => {
+    console.log(allPosts());
+  };
 
   handleLogin = async (e, loginData) => {
     e.preventDefault();
@@ -87,7 +93,8 @@ class App extends Component {
   };
 
   componentDidMount() {
-    console.log(this.state);
+    console.log("wavy");
+    console.log(allPosts());
   }
 
   render() {
