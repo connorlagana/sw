@@ -16,30 +16,6 @@ import { loginUser, registerUser, verifyUser } from "./services/api_helper";
 
 import womenHeroPic from "./images/womenHero.jpg";
 import menHeroPic from "./images/menHero.jpg";
-
-import a1 from "./images/womens/A1.jpg";
-import a2 from "./images/womens/A2.jpg";
-import b1 from "./images/womens/B1.jpg";
-import b2 from "./images/womens/B2.jpg";
-import c1 from "./images/womens/C1.jpg";
-import c2 from "./images/womens/C2.jpg";
-import d1 from "./images/womens/D1.jpg";
-import d2 from "./images/womens/D2.jpg";
-import e1 from "./images/womens/E1.jpg";
-import e2 from "./images/womens/E2.jpg";
-import f1 from "./images/womens/F1.gif";
-import f2 from "./images/womens/F2.jpg";
-import g1 from "./images/womens/G1.jpg";
-import g2 from "./images/womens/G2.jpg";
-import h1 from "./images/womens/H1.jpg";
-import h2 from "./images/womens/H2.jpg";
-import i1 from "./images/womens/I1.gif";
-import j1 from "./images/womens/J1.jpg";
-import j2 from "./images/womens/J2.jpg";
-import k1 from "./images/womens/K1.jpg";
-import k2 from "./images/womens/K2.jpg";
-import l1 from "./images/womens/L1.jpg";
-import l2 from "./images/womens/L2.jpg";
 import ContactUs from "./components/Contact";
 
 class App extends Component {
@@ -54,136 +30,14 @@ class App extends Component {
         pic: womenHeroPic,
         firstTitle: "Wom",
         secondTitle: "en",
-        items: [
-          {
-            name: "Favorite Daughter Loose Tee - White",
-            type: "tee",
-            firstPic: a1,
-            secondPic: a2,
-            colors: ["white"],
-            sizesAvailable: ["xs", "s", "m", "l", "xl"],
-            price: 45,
-            key: 1
-          },
-          {
-            name: "Heart EMB Teddy Zip Up Jacket",
-            type: "sweatshirt",
-            firstPic: b1,
-            secondPic: b2,
-            colors: ["black"],
-            sizesAvailable: ["xs", "s", "m", "l", "xl"],
-            price: 98,
-            key: 2
-          },
-          {
-            name: "Favorite Daughter Loose Tee - HTHR",
-            type: "tee",
-            firstPic: c1,
-            secondPic: c2,
-            colors: ["gray"],
-            sizesAvailable: ["xs", "s", "m", "l"],
-            price: 45,
-            key: 3
-          },
-          {
-            name: "Camo Stripe Cambridge Sweats",
-            type: "bottoms",
-            firstPic: d1,
-            secondPic: d2,
-            colors: ["black", "green"],
-            sizesAvailable: ["l", "xl"],
-            price: 78,
-            key: 4
-          },
-          {
-            name: "Favorite Daughter Fitted Vanessa Tee - HTHR",
-            type: "tee",
-            firstPic: e1,
-            secondPic: e2,
-            colors: ["gray"],
-            sizesAvailable: ["xs", "s", "m", "l", "xl"],
-            price: 45,
-            key: 5
-          },
-          {
-            name: "The Trinity Poppy Tee",
-            type: "tee",
-            firstPic: f1,
-            secondPic: f2,
-            colors: ["white", "black", "gray"],
-            sizesAvailable: ["l", "xl"],
-            price: 114,
-            sale: 72,
-            key: 6
-          },
-          {
-            name: "Favorite Daughter Fitted Vanessa Tee - White",
-            type: "tee",
-            firstPic: g1,
-            secondPic: g2,
-            colors: ["white"],
-            sizesAvailable: ["xs", "s"],
-            price: 45,
-            key: 7
-          },
-          {
-            name: "Be Brave and Kind Loose Tee - Black",
-            type: "tee",
-            firstPic: h1,
-            secondPic: h2,
-            colors: ["black"],
-            sizesAvailable: ["s", "l", "xl"],
-            price: 38,
-            key: 8
-          },
-          {
-            name: "The Trinity Loose Tee",
-            type: "tee",
-            firstPic: i1,
-            secondPic: f2,
-            colors: ["black", "white", "gray"],
-            sizesAvailable: ["s"],
-            price: 114,
-            sale: 72,
-            key: 9
-          },
-          {
-            name: "Be a Nice Human Loose Tee - White",
-            type: "tee",
-            firstPic: j1,
-            secondPic: j2,
-            colors: ["white"],
-            sizesAvailable: ["l", "xl"],
-            price: 38,
-            key: 10
-          },
-          {
-            name: "Homebody Willow Sweatshirt",
-            type: "sweatshirt",
-            firstPic: k1,
-            secondPic: k2,
-            colors: ["black"],
-            sizesAvailable: ["s", "l", "xl"],
-            price: 64,
-            key: 11
-          },
-          {
-            name: "Work Hard Loose Tee",
-            type: "tee",
-            firstPic: l1,
-            secondPic: l2,
-            colors: ["white"],
-            sizesAvailable: ["s", "l", "xl"],
-            price: 38,
-            key: 12
-          }
-        ]
+        items: []
       },
       men: {
         name: "men",
         pic: menHeroPic,
         firstTitle: "M",
-        secondTitle: "en"
+        secondTitle: "en",
+        items: []
       }
     };
   }
