@@ -40,6 +40,14 @@ class App extends Component {
         firstTitle: "M",
         secondTitle: "en",
         items: []
+      },
+      youth: {
+        name: "youth",
+        pic:
+          "https://cdn.shopify.com/s/files/1/0863/0656/files/TWEEN.BANNER.DESKTOP.jpg?v=1566939870",
+        firstTitle: "You",
+        secondTitle: "th",
+        items: []
       }
     };
   }
@@ -107,6 +115,9 @@ class App extends Component {
         </Route>
         <Route path="/men">
           <Women gender={this.state.men} />
+        </Route>
+        <Route path="/youth">
+          <Women gender={this.state.youth} />
         </Route>
         <Route path="/contactus">
           <ContactUs />
