@@ -1,6 +1,11 @@
 import React from "react";
 import WomenItems from "./WomenItems.js";
 
+function handleColor(e) {
+  e.preventDefault();
+  console.log(e);
+}
+
 function WomenBottom(props) {
   return (
     <div className="WomenBottom">
@@ -16,13 +21,17 @@ function WomenBottom(props) {
         <div className="colors">
           <div id="colorTitle">Color</div>
           <div className="colorButtons">
-            <button className="black sqBut" />
-            <button className="red sqBut" />
-            <button className="gray sqBut" />
-            <button className="blue sqBut" />
-            <button className="brown sqBut" />
-            <button className="white sqBut" />
-            <button className="green sqBut" />
+            <button
+              className="black sqBut"
+              name="black"
+              onClick={handleColor}
+            />
+            <button className="red sqBut" onClick={handleColor} />
+            <button className="gray sqBut" onClick={handleColor} />
+            <button className="blue sqBut" onClick={handleColor} />
+            <button className="brown sqBut" onClick={handleColor} />
+            <button className="white sqBut" onClick={handleColor} />
+            <button className="green sqBut" onClick={handleColor} />
           </div>
         </div>
         <div className="colors">
