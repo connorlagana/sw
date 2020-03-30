@@ -8,10 +8,8 @@ function WomenBottom(props) {
         <div className="categories">
           <button id="category">New Arrivals</button>
           <button id="category">Graphic Tees</button>
-          <button id="category">Basics</button>
           <button id="category">Bottoms</button>
-          <button id="category">Sweatshirts & jackets</button>
-          <button id="category">Sleeveless</button>
+          <button id="category">Sweatshirts & Jackets</button>
           <button id="category">Sale</button>
           <button id="viewAll">View All</button>
         </div>

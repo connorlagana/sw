@@ -29,7 +29,7 @@ class WomenItems extends Component {
                   />
                 </Link>
                 <div className="bottomInd">
-                  <div id="itemName">{item.name}</div>
+                  <div id="itemName">{item.title}</div>
                   <div>
                     <div id="itemPrice">${item.price}.00</div>
                   </div>

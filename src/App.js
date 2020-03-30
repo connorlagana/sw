@@ -32,7 +32,344 @@ class App extends Component {
         pic: womenHeroPic,
         firstTitle: "Wom",
         secondTitle: "en",
-        items: []
+        items: [
+          {
+            gender: "women",
+            id: 1,
+            title: "WORK HARD LOOSE TEE",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W3018-116_WHT.WORK.HARD.AND.BE.NICE.LOOSE.TEE-4_1.jpg?v=1585249787",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/cXQ4cQjQ_1.jpg?v=1585249787",
+            colors: ["white"],
+            sizes: ["xs", "s", "m", "l", "xl"],
+            type: "tee",
+            price: 38,
+            sale: null
+          },
+          {
+            gender: "women",
+            id: 2,
+            title: "HOMEBODY WILLOW SWEATSHIRT",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W4049-79_BLK_1.BIG.jpg?v=1571440150",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W7013-17_BLK.BIG.CATS.CAMBRIDGE.SWEATS-4_1.jpg?v=1571440714",
+            colors: ["black"],
+            sizes: ["xs"],
+            type: "sweatshirt",
+            price: 64,
+            sale: null
+          },
+          {
+            gender: "women",
+            id: 3,
+            title: "BE A NICE HUMAN LOOSE TEE - WHITE",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W3018-XX.BE.A.NICE.HUMAN.LOOSE.TEE.WHT-1-2.jpg?v=1574198127",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W3018-333_WHT.NICE.HUMAN-11.jpg?v=1574379759",
+            colors: ["white", "red"],
+            sizes: ["xs", "s", "m", "l", "xl"],
+            type: "tee",
+            price: 38,
+            sale: null
+          },
+          {
+            gender: "women",
+            id: 4,
+            title: "THE TRINITY LOOSE TEE",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/THE.TRINITY.gif?v=1521591301",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W3018.TRINITY.jpg?v=1521591301",
+            colors: ["black", "white", "gray"],
+            sizes: ["xs", "s", "m", "l", "xl"],
+            type: "tee",
+            price: 114,
+            sale: 72
+          },
+          {
+            gender: "women",
+            id: 5,
+            title: "BE BRAVE AND KIND LOOSE TEE - BLACK",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/NEW3.jpg?v=1575660715",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W3018-429_BLK.BE.BRAVE.BE.KIND-1_1.jpg?v=1575660715",
+            colors: ["black"],
+            sizes: ["xs", "s", "m", "l", "xl"],
+            type: "tee",
+            price: 38,
+            sale: null
+          },
+          {
+            gender: "women",
+            id: 6,
+            title: "FAVORITE DAUGHTER FITTED VANESSA TEE - WHITE",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W3043-4_WHT.jpg?v=1550689257",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W3043-4.FAVORITE.DAUGHTER.VANESSA_WHT-3.jpg?v=1550689257",
+            colors: ["white"],
+            sizes: ["xs", "s", "m", "l", "xl"],
+            type: "tee",
+            price: 45,
+            sale: null
+          },
+          {
+            gender: "women",
+            id: 7,
+            title: "THE TRINITY POPPY TEE",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/ezgif.com-optimize_2.gif?v=1532121925",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/TRINITY-POPPY.jpg?v=1532121925",
+            colors: ["black", "white", "gray"],
+            sizes: ["xs", "s", "m", "l", "xl"],
+            type: "tee",
+            price: 114,
+            sale: 72
+          },
+          {
+            gender: "women",
+            id: 8,
+            title: "FAVORITE DAUGHTER FITTED VANESSA TEE - HTHR",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W3043-5.FAVORITE.DAUGHTER_HGR-17.jpg?v=1536608853",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W3043-5.FAVORITE.DAUGHTER_HGR-11.jpg?v=1536608853",
+            colors: ["gray"],
+            sizes: ["xs", "s", "m", "xl"],
+            type: "tee",
+            price: 45,
+            sale: null
+          },
+          {
+            gender: "women",
+            id: 9,
+            title: "CAMO STRIPE CAMBRIDGE SWEATS",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W7013-18_CAMO.CAMO.STRIPE.CAMBRIDGE-1.jpg?v=1570140724",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W3018-613_WHT.HOTTER.THAN.I.SHOULD.BE.W7013-18_CAMO.CAMO.STRIPE.CAMBRIDGE-1.jpg?v=1570140724",
+            colors: ["black", "green"],
+            sizes: ["xs", "s", "l"],
+            type: "pants",
+            price: 78,
+            sale: null
+          },
+          {
+            gender: "women",
+            id: 10,
+            title: "FAVORITE DAUGHTER LOOSE TEE - HTHR",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W3018-549_HGR.FAVORITE.DAUGHTER.LOOSE.TEE-1.jpg?v=1574277470",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W3018-549_HGR_1.jpg?v=1574277470",
+            colors: ["gray"],
+            sizes: ["xs", "s", "m", "l", "xl"],
+            type: "tee",
+            price: 45,
+            sale: null
+          },
+          {
+            gender: "women",
+            id: 11,
+            title: "HEART EMB TEDDY ZIP UP JACKET",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W4071-1_BLK.HEART.EMB.TEDDY.JACKET-12.jpg?v=1562951505",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W4071-1_BLK.HEART.EMB.TEDDY.ZIP.UP-10_1.jpg?v=1563315255",
+            colors: ["black"],
+            sizes: ["m"],
+            type: "sweatshirt",
+            price: 98,
+            sale: null
+          },
+          {
+            gender: "women",
+            id: 12,
+            title: "INDOORSY LOOSE TEE",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/Uqh2Xl7g_1.jpg?v=1574202339",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W3018-481_HGR.INDOORSY-12.jpg?v=1581719290",
+            colors: ["gray"],
+            sizes: ["xs", "s", "m", "l", "xl"],
+            type: "tee",
+            price: 38,
+            sale: null
+          },
+          {
+            gender: "women",
+            id: 13,
+            title: "GOOD VIBES LOOSE TEE - HTHR",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W3018-9_GOOD.VIBES_HGR-2.jpg?v=1574198090",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/0WknE7wg_1.jpg?v=1574203930",
+            colors: ["gray"],
+            sizes: ["xs", "s", "l"],
+            type: "tee",
+            price: 38,
+            sale: null
+          },
+          {
+            gender: "women",
+            id: 14,
+            title: "POPPY TEE - BLACK",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W3019_BLK.POPPY.TEE-5.jpg?v=1580238734",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W3019_BLK.POPPY.TEE-1_1.jpg?v=1580238857",
+            colors: ["black"],
+            sizes: ["s", "m"],
+            type: "tee",
+            price: 38,
+            sale: null
+          },
+          {
+            gender: "women",
+            id: 15,
+            title: "POPPY TEE - WHITE",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W3019_WHT.jpg?v=1583174640",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W3019-1.POPPY.TEE_WHT-2.jpg?v=1583174640",
+            colors: ["white"],
+            sizes: ["xs", "s", "m", "l"],
+            type: "tee",
+            price: 38,
+            sale: null
+          },
+          {
+            gender: "women",
+            id: 16,
+            title: "ICONIC LOOSE TEE",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W3018-341.ICONIC.10.jpg?v=1519426785",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W3018-341.ICONIC-BLK-3.jpg?v=1519426785",
+            colors: ["black"],
+            sizes: ["xs", "s", "m", "l", "xl"],
+            type: "tee",
+            price: 38,
+            sale: null
+          },
+          {
+            gender: "women",
+            id: 17,
+            title: "KALE UNISEX SWEATSHIRT - HTHR",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/w6009A_KALE_Swetshirt_Hthr.jpg?v=1518832702",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/U2010-4.KALE.Crew.Hthr-1.jpg?v=1518832702",
+            colors: ["gray"],
+            sizes: ["xs", "s", "m"],
+            type: "tee",
+            price: 64,
+            sale: null
+          },
+          {
+            gender: "women",
+            id: 18,
+            title: "HEART EMB CAMP TEE - BLACK",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W4051-14.HEART.EMB.CAMP.TEE_BLK-2.jpg?v=1537825401",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W4051-14.HEART.EMB.CAMP.TEE_BLK-12.jpg?v=1537825401",
+            colors: ["black"],
+            sizes: ["xs", "s", "m", "l", "xl"],
+            type: "tee",
+            price: 52,
+            sale: null
+          },
+          {
+            gender: "women",
+            id: 19,
+            title: "HEART EMB LOOSE TEE - HTHR",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W3018-417.HEART.EMB_HGR-24.jpg?v=1532045140",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W3018-417.HEART.EMB_HGR-7.jpg?v=1532045140",
+            colors: ["gray"],
+            sizes: ["xs", "s", "m", "l"],
+            type: "tee",
+            price: 38,
+            sale: null
+          },
+          {
+            gender: "women",
+            id: 20,
+            title: "HEART EMB CAMP TEE - NAVY",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W4051-15.HEART.EMB.CAMP_NVY-2_1.jpg?v=1537825318",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W4051-15.HEART.EMB.CAMP_NVY-2.jpg?v=1537825318",
+            colors: ["blue"],
+            sizes: ["xs", "s", "m", "l", "xl"],
+            type: "tee",
+            price: 52,
+            sale: null
+          },
+          {
+            gender: "women",
+            id: 21,
+            title: "CAMBRIDGE SWEATS - CHERRY",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W7013_CHERR.jpg?v=1559865487",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W7013_CHERR.2.jpg?v=1559865487",
+            colors: ["red"],
+            sizes: ["s", "m", "l", "xl"],
+            type: "pants",
+            price: 72,
+            sale: null
+          },
+          {
+            gender: "women",
+            id: 22,
+            title: "KALE WILLOW SWEATSHIRT - HTHR",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W4049-10.KALE.HGR-2.jpg?v=1514242297",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W4049-10.KALE.HGR-1.jpg?v=1514242297",
+            colors: ["gray", "green"],
+            sizes: ["xs", "s", "m", "l", "xl"],
+            type: "sweatshirt",
+            price: 38,
+            sale: null
+          },
+          {
+            gender: "women",
+            id: 23,
+            title: "HEART EMB CAMP TEE - WHITE",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W4051-22_WHT.HEART.EMB.CAMP.TEE-3_1.jpg?v=1580161933",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W4051-22_WHT.HEART.EMB.CAMP.TEE-2_1.jpg?v=1580161933",
+            colors: ["white"],
+            sizes: ["s", "m", "l", "xl"],
+            type: "tee",
+            price: 52,
+            sale: null
+          },
+          {
+            gender: "women",
+            id: 24,
+            title: "VINCENT STRIPE CAMP TEE",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W4051-31.VINCENT.STRIPE.CAMP-39.jpg?v=1532042413",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/W4051-31.VINCENT.STRIPE.CAMP-13.jpg?v=1532042413",
+            colors: ["White", "red", "blue"],
+            sizes: ["xs", "s", "m", "l", "xl"],
+            type: "tee",
+            price: 52,
+            sale: null
+          }
+        ]
       },
       men: {
         name: "men",
@@ -123,6 +460,7 @@ class App extends Component {
           <ContactUs />
         </Route>
         <Route path="/login">
+          0
           <Login />
         </Route>
         <Route path="/register">
