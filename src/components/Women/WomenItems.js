@@ -10,7 +10,7 @@ class WomenItems extends Component {
       gender: props.gender
     };
   }
-  render() {
+  render(props) {
     return (
       <div className="WomenItems">
         <div className="sortItemsBy">
@@ -34,6 +34,14 @@ class WomenItems extends Component {
                     <div id="itemPrice">${item.price}.00</div>
                   </div>
                 </div>
+
+                <Route
+                  exact
+                  path="/:id"
+                  render={props => {
+                    return <WomenIndy title={props.match.params.id} />;
+                  }}
+                />
               </div>
             ))}
         </div>

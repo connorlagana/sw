@@ -722,6 +722,7 @@ class App extends Component {
           <Shipping />
         </Route>
         {/* <Route
+          exact
           path="/:id"
           render={props => {
             return <WomenIndy title={props.match.params.id} />;

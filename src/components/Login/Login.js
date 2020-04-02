@@ -12,18 +12,20 @@ class Login extends Component {
   render() {
     return (
       <div className="Login">
-        <div className="loginLeft">
-          <label id="LoginTitle">Sign In</label>
-          <form>
-            <input type="email" name="email" placeholder="Email" />
-            <input type="password" name="password" placeholder="Password" />
-            <button id="loginSubmit">Submit</button>
-            <div id="forgotPass">Forgot Password?</div>
-          </form>
-        </div>
-        <div className="loginRight">
-          <label id="LoginTitle">Create An Account</label>
-          <button id="loginSubmit">Register</button>
+        <div className="loginDiv">
+          <div className="loginLeft">
+            <label id="LoginTitle">Sign In</label>
+            <form>
+              <input type="email" name="email" placeholder="Email" />
+              <input type="password" name="password" placeholder="Password" />
+              <button id="loginSubmit">Submit</button>
+              <div id="forgotPass">Forgot Password?</div>
+            </form>
+          </div>
+          <div className="loginRight">
+            <label id="LoginTitle">Create An Account</label>
+            <button id="loginSubmit">Register</button>
+          </div>
         </div>
       </div>
     );

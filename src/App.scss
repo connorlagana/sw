@@ -836,67 +836,21 @@
   }
 }
 
-.SignUp {
+.Login {
+  width: 100vw;
+  height: 30vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
-  & .signUpRect {
+
+  & .loginDiv {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    height: 65vh;
-    width: 25vw;
-    // background-color: rgb(248, 165, 165);
-    // border: solid;
-    // box-shadow: 5px 5px rgb(207, 207, 207);
-    border: solid 1px;
-    border-radius: 2vw;
-
-    & #signUpTitle {
-      height: 10vh;
-      background-color: burlywood;
-      width: 25vw;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: rgb(30, 127, 156);
-      color: white;
-      font-family: "Source Sans Pro", sans-serif;
-      font-size: 1.7vw;
-      border-top-left-radius: 2vw;
-      border-top-right-radius: 2vw;
-    }
-
-    & .signUpForm {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      width: 25vw;
-      height: 45vh;
-      // background-color: powderblue;
-
-      & input {
-        width: 15vw;
-        height: 3.5vh;
-        margin: 0.5vh 0 1vh 0;
-        border: none;
-        box-shadow: none;
-        padding-left: 1vh;
-        padding-right: 1vh;
-        border-radius: 2vw;
-        background-color: rgb(214, 214, 214);
-        color: black;
-        font-size: 1.4vh;
-        font-family: "Source Sans Pro", sans-serif;
-      }
-    }
-
-    .alreadyAcct {
-      height: 10vh;
-    }
+    flex-direction: row;
+    background-color: gray;
+    width: 80vw;
+    height: 30vh;
   }
 }
 
