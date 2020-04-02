@@ -84,7 +84,7 @@ class WomenBottom extends Component {
           </div>
         </div>
         <div className="rightWomenBottomDiv">
-          <WomenItems gender={this.gender} />
+          <WomenItems gender={this.state.gender} />
         </div>
       </div>
     );

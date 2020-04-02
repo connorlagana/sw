@@ -555,69 +555,51 @@ class App extends Component {
               "https://cdn.shopify.com/s/files/1/0863/0656/products/U4048_PISLB_1_1.jpg?v=1582238429",
             colors: ["blue"],
             sizes: ["m", "l", "xl"],
-            type: "tee",
+            type: "sweatshirt",
             price: 64,
             sale: null
           },
           {
             gender: "men",
-            id: 25,
-            title: "",
-            firstPic: "",
-            secondPic: "",
-            colors: ["White"],
-            sizes: ["xs", "s", "m", "l", "xl"],
-            type: "tee",
-            price: 24,
+            id: 38,
+            title: "PIGMENT DYED HOODY",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/U4048_PIGSS_1_1.jpg?v=1582238397",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/U4048_PIGSS_1_1.jpg?v=1582238397",
+            colors: ["green"],
+            sizes: ["s", "m", "l", "xl"],
+            type: "sweatshirt",
+            price: 64,
             sale: null
           },
           {
             gender: "men",
-            id: 25,
-            title: "",
-            firstPic: "",
-            secondPic: "",
-            colors: ["White"],
-            sizes: ["xs", "s", "m", "l", "xl"],
-            type: "tee",
-            price: 24,
+            id: 39,
+            title: "PIGMENT DYED HOODY",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/U4048_PIGBL_1_1.jpg?v=1582238355",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/U4048_PIGBL_1_1.jpg?v=1582238355",
+            colors: ["gray"],
+            sizes: ["s", "m", "l", "xl"],
+            type: "sweatshirt",
+            price: 64,
             sale: null
           },
           {
             gender: "men",
-            id: 25,
-            title: "",
-            firstPic: "",
-            secondPic: "",
-            colors: ["White"],
-            sizes: ["xs", "s", "m", "l", "xl"],
-            type: "tee",
-            price: 24,
-            sale: null
-          },
-          {
-            gender: "men",
-            id: 25,
-            title: "",
-            firstPic: "",
-            secondPic: "",
-            colors: ["White"],
-            sizes: ["xs", "s", "m", "l", "xl"],
-            type: "tee",
-            price: 24,
-            sale: null
-          },
-          {
-            gender: "men",
-            id: 25,
-            title: "",
-            firstPic: "",
-            secondPic: "",
-            colors: ["White"],
-            sizes: ["xs", "s", "m", "l", "xl"],
-            type: "tee",
-            price: 24,
-            sale: null
+            id: 40,
+            title: "IT'S COOL TO BE KIND VARSITY LONG SLEEVE",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/M2019-18_PIGBL_1.jpg?v=1564528298",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/M2019-18_PIGBL_1.jpg?v=1564528298",
+            colors: ["black"],
+            sizes: ["m", "l"],
+            type: "sweatshirt",
+            price: 52,
+            sale: 29
           }
         ]
       },
