@@ -21,7 +21,7 @@ class WomenItems extends Component {
           {this.state.gender.items &&
             this.state.gender.items.map(item => (
               <div className="itemInd">
-                <Link to={`/${item.key}`}>
+                <Link to={`/${item.id}`}>
                   <img
                     src={item.firstPic}
                     onMouseOver={e => (e.currentTarget.src = item.secondPic)}
@@ -34,9 +34,6 @@ class WomenItems extends Component {
                     <div id="itemPrice">${item.price}.00</div>
                   </div>
                 </div>
-                <Route path={`/${item.key}`}>
-                  <WomenIndy item={item} />
-                </Route>
               </div>
             ))}
         </div>

@@ -1,29 +1,14 @@
 import React, { Component } from "react";
 
-class WomenIndy extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      item: this.props.item
-    };
-  }
-
-  componentDidMount() {
-    console.log("hello world");
-    console.log(this.state);
-    // this.setState({
-    //   item: this.props.item
-    // });
-  }
-
-  render() {
-    return (
-      <div className="WomenIndy">
-        {/* <div>Hello World</div> */}
-        {/* <img src={this.state.firstPic} /> */}
-      </div>
-    );
-  }
+function WomenIndy(props) {
+  console.log("bulletproof");
+  console.log(props);
+  return (
+    <div className="WomenIndy">
+      <div>Hello World</div>
+      <div>{props.item}</div>
+    </div>
+  );
 }
 
 export default WomenIndy;

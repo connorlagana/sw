@@ -707,7 +707,6 @@ class App extends Component {
           <ContactUs />
         </Route>
         <Route path="/login">
-          0
           <Login />
         </Route>
         <Route path="/register">
@@ -722,12 +721,12 @@ class App extends Component {
         <Route path="/shipping">
           <Shipping />
         </Route>
-        <Route
-          path="/:key"
+        {/* <Route
+          path="/:id"
           render={props => {
-            return <WomenIndy item={props.match.params.key} />;
+            return <WomenIndy title={props.match.params.id} />;
           }}
-        />
+        /> */}
         <Footer />
       </div>
     );
