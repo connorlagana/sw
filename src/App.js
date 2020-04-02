@@ -610,6 +610,22 @@ class App extends Component {
         firstTitle: "You",
         secondTitle: "th",
         items: []
+      },
+      misc: {
+        name: "misc",
+        pic:
+          "https://cdn.shopify.com/s/files/1/0863/0656/files/NERDY.BY.NATURE.TOTE.DESKTOP.jpeg?v=1574293636",
+        firstTitle: "Gene",
+        secondTitle: "ral",
+        items: []
+      },
+      new: {
+        name: "new",
+        pic:
+          "https://cdn.shopify.com/s/files/1/0863/0656/files/NEW.DESKTOP.BANNER.JPG?v=1585245119",
+        firstTitle: "Ne",
+        secondTitle: "w",
+        items: []
       }
     };
   }
@@ -671,6 +687,9 @@ class App extends Component {
     return (
       <div className="App">
         <Nav />
+        <Route path="/new">
+          <Women gender={this.state.new} />
+        </Route>
         <Route exact path="/" component={Hero} />
         <Route path="/women">
           <Women gender={this.state.women} />
@@ -680,6 +699,9 @@ class App extends Component {
         </Route>
         <Route path="/youth">
           <Women gender={this.state.youth} />
+        </Route>
+        <Route path="/misc">
+          <Women gender={this.state.misc} />
         </Route>
         <Route path="/contactus">
           <ContactUs />
