@@ -363,7 +363,7 @@ class App extends Component {
               "https://cdn.shopify.com/s/files/1/0863/0656/products/W4051-31.VINCENT.STRIPE.CAMP-39.jpg?v=1532042413",
             secondPic:
               "https://cdn.shopify.com/s/files/1/0863/0656/products/W4051-31.VINCENT.STRIPE.CAMP-13.jpg?v=1532042413",
-            colors: ["White", "red", "blue"],
+            colors: ["hite", "red", "blue"],
             sizes: ["xs", "s", "m", "l", "xl"],
             type: "tee",
             price: 52,
@@ -376,7 +376,250 @@ class App extends Component {
         pic: menHeroPic,
         firstTitle: "M",
         secondTitle: "en",
-        items: []
+        items: [
+          {
+            gender: "men",
+            id: 25,
+            title: "WINE TEE",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/M100-293_HGR_1.jpg?v=1564527565",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/M100-293_HGR_1_6a13285c-6b91-40fd-b267-9455bc5db47f.jpg?v=1564527570",
+            colors: ["gray"],
+            sizes: ["m"],
+            type: "tee",
+            price: 38,
+            sale: 24
+          },
+          {
+            gender: "men",
+            id: 26,
+            title: "HEART EMB MENS TEE - BLACK",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/M100-305_FBLK_1.jpg?v=1564767943",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/M100-305_FBLK_1_de58d456-cbd9-44d0-9d62-ec8a658672bb.jpg?v=1564768172",
+            colors: ["black"],
+            sizes: ["s"],
+            type: "tee",
+            price: 38,
+            sale: 24
+          },
+          {
+            gender: "men",
+            id: 27,
+            title: "KALE UNISEX SWEATSHIRT - HTHR",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/w6009A_KALE_Swetshirt_Hthr.jpg?v=1518832702",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/U2010-4.KALE.UNISEX.SWEATSHIRT.HGR-6.jpg?v=1518832702",
+            colors: ["gray"],
+            sizes: ["xs", "s", "m", "l", "xl"],
+            type: "sweatshirt",
+            price: 64,
+            sale: 39
+          },
+          {
+            gender: "men",
+            id: 28,
+            title: "KALE UNISEX SWEATSHIRT - NAVY",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/U2010-4_NAVYB_1.jpg?v=1540494226",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/Beyonce_Kale_Square_4ce14720-92e2-4634-ae19-8efcbdc972ff.jpg?v=1540494226",
+            colors: ["gray"],
+            sizes: ["xs", "s", "m", "l", "xl"],
+            type: "sweatshirt",
+            price: 64,
+            sale: 39
+          },
+          {
+            gender: "men",
+            id: 29,
+            title: "HEAVYWEIGHT CREW",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/M2025_BLUSH_1.jpg?v=1582135230",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/M2025_BLUSH_1.jpg?v=1582135230",
+            colors: ["white"],
+            sizes: ["s", "m"],
+            type: "sweatshirt",
+            price: 88,
+            sale: null
+          },
+          {
+            gender: "men",
+            id: 30,
+            title: "HEAVYWEIGHT CREW",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/M2025_HGR_1.jpg?v=1582135238",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/M2025_HGR_1.jpg?v=1582135238",
+            colors: ["gray"],
+            sizes: ["xs", "s", "m", "xl"],
+            type: "sweatshirt",
+            price: 88,
+            sale: null
+          },
+          {
+            gender: "men",
+            id: 31,
+            title: "HEAVYWEIGHT CREW",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/M2025_BLK_1.jpg?v=1582135247",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/M2025_BLK_1.jpg?v=1582135247",
+            colors: ["black"],
+            sizes: ["s", "m", "l", "xl"],
+            type: "sweatshirt",
+            price: 88,
+            sale: null
+          },
+          {
+            gender: "men",
+            id: 32,
+            title: "HEAVYWEIGHT HOODIE",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/M2024_BLK.HEAVYWEIGHT.HOODIE-2.jpg?v=1582135214",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/M2024_BLK.HEAVYWEIGHT.HOODIE-2.jpg?v=1582135214",
+            colors: ["black"],
+            sizes: ["s", "m", "l", "xl"],
+            type: "sweatshirt",
+            price: 88,
+            sale: null
+          },
+          {
+            gender: "men",
+            id: 33,
+            title: "HEAVYWEIGHT HOODIE",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/M2024_HGR_1.jpg?v=1582135222",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/M2024_HGR_1.jpg?v=1582135222",
+            colors: ["gray"],
+            sizes: ["s", "m", "l", "xl"],
+            type: "sweatshirt",
+            price: 88,
+            sale: null
+          },
+          {
+            gender: "men",
+            id: 34,
+            title: "FIELD JOGGERS",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/M7010_BLK.jpg?v=1568244567",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/M7010_BLK.jpg?v=1568244567",
+            colors: ["black"],
+            sizes: ["s", "m", "l", "xl"],
+            type: "pants",
+            price: 68,
+            sale: null
+          },
+          {
+            gender: "men",
+            id: 35,
+            title: "FIELD JOGGERS - CAMO",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/M7010_BCAMO.jpg?v=1568244574",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/M7010_BCAMO.jpg?v=1568244574",
+            colors: ["black"],
+            sizes: ["m"],
+            type: "pants",
+            price: 68,
+            sale: null
+          },
+          {
+            gender: "men",
+            id: 36,
+            title: "PIGMENT DYE SWEATSHIRT",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/M2020_PIGSS_1.jpg?v=1582135207",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/M2020_PIGSS_1.jpg?v=1582135207",
+            colors: ["gray"],
+            sizes: ["s", "m", "l", "xl"],
+            type: "sweatshirt",
+            price: 64,
+            sale: null
+          },
+          {
+            gender: "men",
+            id: 37,
+            title: "PIGMENT DYED HOODY",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/U4048_PISLB_1_1.jpg?v=1582238429",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/U4048_PISLB_1_1.jpg?v=1582238429",
+            colors: ["blue"],
+            sizes: ["m", "l", "xl"],
+            type: "tee",
+            price: 64,
+            sale: null
+          },
+          {
+            gender: "men",
+            id: 25,
+            title: "",
+            firstPic: "",
+            secondPic: "",
+            colors: ["White"],
+            sizes: ["xs", "s", "m", "l", "xl"],
+            type: "tee",
+            price: 24,
+            sale: null
+          },
+          {
+            gender: "men",
+            id: 25,
+            title: "",
+            firstPic: "",
+            secondPic: "",
+            colors: ["White"],
+            sizes: ["xs", "s", "m", "l", "xl"],
+            type: "tee",
+            price: 24,
+            sale: null
+          },
+          {
+            gender: "men",
+            id: 25,
+            title: "",
+            firstPic: "",
+            secondPic: "",
+            colors: ["White"],
+            sizes: ["xs", "s", "m", "l", "xl"],
+            type: "tee",
+            price: 24,
+            sale: null
+          },
+          {
+            gender: "men",
+            id: 25,
+            title: "",
+            firstPic: "",
+            secondPic: "",
+            colors: ["White"],
+            sizes: ["xs", "s", "m", "l", "xl"],
+            type: "tee",
+            price: 24,
+            sale: null
+          },
+          {
+            gender: "men",
+            id: 25,
+            title: "",
+            firstPic: "",
+            secondPic: "",
+            colors: ["White"],
+            sizes: ["xs", "s", "m", "l", "xl"],
+            type: "tee",
+            price: 24,
+            sale: null
+          }
+        ]
       },
       youth: {
         name: "youth",
