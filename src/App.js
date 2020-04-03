@@ -780,14 +780,6 @@ class App extends Component {
           }
         ]
       },
-      misc: {
-        name: "misc",
-        pic:
-          "https://cdn.shopify.com/s/files/1/0863/0656/files/NERDY.BY.NATURE.TOTE.DESKTOP.jpeg?v=1574293636",
-        firstTitle: "Gene",
-        secondTitle: "ral",
-        items: []
-      },
       new: {
         name: "new",
         pic:
@@ -868,9 +860,6 @@ class App extends Component {
         </Route>
         <Route path="/youth">
           <Women gender={this.state.youth} />
-        </Route>
-        <Route path="/misc">
-          <Women gender={this.state.misc} />
         </Route>
         <Route path="/contactus">
           <ContactUs />
