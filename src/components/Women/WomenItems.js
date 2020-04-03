@@ -35,13 +35,13 @@ class WomenItems extends Component {
                   </div>
                 </div>
 
-                <Route
+                {/* <Route
                   exact
-                  path="/:id"
+                  path="/women/:id"
                   render={props => {
                     return <WomenIndy title={props.match.params.id} />;
                   }}
-                />
+                /> */}
               </div>
             ))}
         </div>

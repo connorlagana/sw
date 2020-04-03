@@ -609,7 +609,176 @@ class App extends Component {
           "https://cdn.shopify.com/s/files/1/0863/0656/files/TWEEN.BANNER.DESKTOP.jpg?v=1566939870",
         firstTitle: "You",
         secondTitle: "th",
-        items: []
+        items: [
+          {
+            gender: "youth",
+            id: 41,
+            title: "BE A NICE HUMAN YOUTH SIZE LOOSE TEE",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/T1003-21_HGR_1.jpg?v=1579629832",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/T1003-21_HGR_1.jpg?v=1579629832",
+            colors: ["gray"],
+            sizes: ["s", "m", "l", "xl"],
+            type: "tee",
+            price: 28,
+            sale: null
+          },
+          {
+            gender: "youth",
+            id: 42,
+            title: "LOVE HEART YOUTH SIZE LOOSE TEE",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/T1003-37_CHERR_1.jpg?v=1584633995",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/T1003-37_CHERR_1.jpg?v=1584633995",
+            colors: ["red"],
+            sizes: ["s", "m", "l", "xl"],
+            type: "tee",
+            price: 28,
+            sale: null
+          },
+          {
+            gender: "youth",
+            id: 43,
+            title: "LOVE LIST YOUTH SIZE CROP TEE",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/T1004-15_NVY_1.jpg?v=1585089533",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/T1004-15_NVY_1.jpg?v=1585089533",
+            colors: ["blue"],
+            sizes: ["s", "m", "l", "xl"],
+            type: "tee",
+            price: 28,
+            sale: null
+          },
+          {
+            gender: "youth",
+            id: 44,
+            title: "FAVORITE DAUGHTER YOUTH SIZE LOOSE TEE - HTHR",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/Screen_Shot_2019-10-10_at_12.51.08_PM_1.png?v=1572020598",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/Screen_Shot_2019-10-10_at_12.51.08_PM_1.png?v=1572020598",
+            colors: ["black"],
+            sizes: ["s", "m", "l", "xl"],
+            type: "tee",
+            price: 28,
+            sale: null
+          },
+          {
+            gender: "youth",
+            id: 45,
+            title: "SPLATTER PAINT YOUTH SIZE LOOSE TEE",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/TGD1003-1-_ATQWHT_1.jpg?v=1585090040",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/TGD1003-1-_ATQWHT_1.jpg?v=1585090040",
+            colors: ["white"],
+            sizes: ["s", "m", "l", "xl"],
+            type: "tee",
+            price: 28,
+            sale: null
+          },
+          {
+            gender: "youth",
+            id: 46,
+            title: "FAVORITE DAUGHTER YOUTH SIZE SELENA SWEATSHIRT",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/T4000-33_HGR.jpg?v=1567534496",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/T4000-33_HGR.jpg?v=1567534496",
+            colors: ["gray"],
+            sizes: ["m", "l"],
+            type: "sweatshirt",
+            price: 48,
+            sale: null
+          },
+          {
+            gender: "youth",
+            id: 47,
+            title: "FAVORITE DAUGHTER TYLER YOUTH SIZE HOODIE",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/T4006-2_PACIF_1.jpg?v=1574792033",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/T4006-2_PACIF_1.jpg?v=1574792033",
+            colors: ["blue"],
+            sizes: ["s", "m", "l", "xl"],
+            type: "sweatshirt",
+            price: 48,
+            sale: null
+          },
+          {
+            gender: "youth",
+            id: 48,
+            title: "BE A NICE HUMAN ATHENA L/S YOUTH TEE",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/T4001-19_NVY_1.jpg?v=1562876858",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/T4001-19_NVY_1.jpg?v=1562876858",
+            colors: ["blue"],
+            sizes: ["s", "m", "l", "xl"],
+            type: "tee",
+            price: 38,
+            sale: null
+          },
+          {
+            gender: "youth",
+            id: 49,
+            title: "GIRLS WANNA HAVE SUN YOUTH SIZE LOOSE TEE",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/T1003-25_BLUSH_1.jpg?v=1585855025",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/T1003-25_BLUSH_1.jpg?v=1585855025",
+            colors: ["pink"],
+            sizes: ["s", "m", "l", "xl"],
+            type: "tee",
+            price: 28,
+            sale: null
+          },
+          {
+            gender: "youth",
+            id: 50,
+            title: "INDOORSY YOUTH SIZE LOOSE TEE",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/T1003-26_HGR_1.jpg?v=1585855231",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/T1003-26_HGR_1.jpg?v=1585855231",
+            colors: ["gray"],
+            sizes: ["s", "m", "l", "xl"],
+            type: "tee",
+            price: 28,
+            sale: null
+          },
+          {
+            gender: "youth",
+            id: 51,
+            title: "FAVORITE DAUGHTER YOUTH SIZE LOOSE TEE - WHITE",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/T1003-3_WHT_1.jpg?v=1576170076",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/T1003-3_WHT_1.jpg?v=1576170076",
+            colors: ["white"],
+            sizes: ["m", "l"],
+            type: "tee",
+            price: 28,
+            sale: null
+          },
+          {
+            gender: "youth",
+            id: 52,
+            title: "MOM'S FAVORITE YOUTH SIZE LOOSE TEE",
+            firstPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/T1003-78_NVY_1.jpg?v=1584634315",
+            secondPic:
+              "https://cdn.shopify.com/s/files/1/0863/0656/products/T1003-78_NVY_1.jpg?v=1584634315",
+            colors: ["blue"],
+            sizes: ["s", "m", "l", "xl"],
+            type: "tee",
+            price: 28,
+            sale: null
+          }
+        ]
       },
       misc: {
         name: "misc",
