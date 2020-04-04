@@ -14,7 +14,7 @@ class Login extends Component {
       <div className="Login">
         <div className="loginDiv">
           <div className="loginLeft">
-            <label id="LoginTitle">Sign In</label>
+            <label id="loginTitle">Sign In</label>
             <form>
               <input type="email" name="email" placeholder="Email" />
               <input type="password" name="password" placeholder="Password" />
