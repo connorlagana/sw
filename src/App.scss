@@ -842,15 +842,35 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 600;
+  font-size: 2vh;
+  font-family: "Source Sans Pro", sans-serif;
 
   & .loginDiv {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    background-color: gray;
+    background-color: rgb(172, 87, 87);
     width: 80vw;
     height: 30vh;
+
+    & .loginLeft {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      background-color: rgb(88, 95, 184);
+      width: 22vw;
+
+      & form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(91, 184, 88);
+      }
+    }
   }
 }
 
