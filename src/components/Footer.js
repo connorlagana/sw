@@ -1,13 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import {
-  DirectLink,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller
-} from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
 
 class Footer extends Component {
   constructor(props) {
