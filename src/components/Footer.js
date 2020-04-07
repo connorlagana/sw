@@ -20,7 +20,7 @@ class Footer extends Component {
               <div id="lftTitle">Company Info</div>
               <div className="lftUnder">
                 {/* <div>Stores</div> */}
-                <Link to="/contactus" id="lftLink">
+                <Link to="/contactus" id="lftLink" onClick={this.scrollToTop}>
                   Contact Us
                 </Link>
               </div>
@@ -31,16 +31,16 @@ class Footer extends Component {
                 <Link to="/shipping" id="lftLink" onClick={this.scrollToTop}>
                   Shipping
                 </Link>
-                <Link to="/contactus" id="lftLink">
+                <Link to="/contactus" id="lftLink" onClick={this.scrollToTop}>
                   Terms & Conditions
                 </Link>
-                <Link to="/privacy-policy" id="lftLink">
+                <Link to="/privacy-policy" id="lftLink" onClick={this.scrollToTop}>
                   Privacy Policy
                 </Link>
               </div>
             </div>
             <div className="lftDiv">
-              <div id="lftTitle">About Us</div>
+              <div id="lftTitle" >About Us</div>
               <div className="lftUnder">
                 <Link to="/ourstory" id="lftLink" onClick={this.scrollToTop}>
                   Our Story
