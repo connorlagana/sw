@@ -838,13 +838,14 @@
 
 .Login {
   width: 100vw;
-  height: 30vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: 600;
   font-size: 2vh;
   font-family: "Source Sans Pro", sans-serif;
+  // background-color: yellow;
 
   & .loginDiv {
     display: flex;
@@ -853,7 +854,8 @@
     flex-direction: row;
 
     width: 80vw;
-    height: 30vh;
+    height: 50vh;
+    // background-color: purple;
 
     & .loginLeft {
       display: flex;
@@ -861,6 +863,7 @@
       align-items: flex-start;
       flex-direction: column;
       width: 22vw;
+      height: 50vh;
 
       & #loginTitle {
         font-size: 3.2vh;
@@ -869,9 +872,12 @@
 
       & form {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
+        height: 40vh;
+
+        // background-color: red;
 
         & input {
           border: none;

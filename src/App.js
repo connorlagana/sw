@@ -45,7 +45,7 @@ class App extends Component {
             sizes: ["xs", "s", "m", "l", "xl"],
             type: "tee",
             price: 38,
-            sale: null
+            sale: null,
           },
           {
             gender: "women",
@@ -59,7 +59,7 @@ class App extends Component {
             sizes: ["xs"],
             type: "sweatshirt",
             price: 64,
-            sale: null
+            sale: null,
           },
           {
             gender: "women",
@@ -73,7 +73,7 @@ class App extends Component {
             sizes: ["xs", "s", "m", "l", "xl"],
             type: "tee",
             price: 38,
-            sale: null
+            sale: null,
           },
           {
             gender: "women",
@@ -87,7 +87,7 @@ class App extends Component {
             sizes: ["xs", "s", "m", "l", "xl"],
             type: "tee",
             price: 114,
-            sale: 72
+            sale: 72,
           },
           {
             gender: "women",
@@ -101,7 +101,7 @@ class App extends Component {
             sizes: ["xs", "s", "m", "l", "xl"],
             type: "tee",
             price: 38,
-            sale: null
+            sale: null,
           },
           {
             gender: "women",
@@ -115,7 +115,7 @@ class App extends Component {
             sizes: ["xs", "s", "m", "l", "xl"],
             type: "tee",
             price: 45,
-            sale: null
+            sale: null,
           },
           {
             gender: "women",
@@ -129,7 +129,7 @@ class App extends Component {
             sizes: ["xs", "s", "m", "l", "xl"],
             type: "tee",
             price: 114,
-            sale: 72
+            sale: 72,
           },
           {
             gender: "women",
@@ -143,7 +143,7 @@ class App extends Component {
             sizes: ["xs", "s", "m", "xl"],
             type: "tee",
             price: 45,
-            sale: null
+            sale: null,
           },
           {
             gender: "women",
@@ -157,7 +157,7 @@ class App extends Component {
             sizes: ["xs", "s", "l"],
             type: "pants",
             price: 78,
-            sale: null
+            sale: null,
           },
           {
             gender: "women",
@@ -171,7 +171,7 @@ class App extends Component {
             sizes: ["xs", "s", "m", "l", "xl"],
             type: "tee",
             price: 45,
-            sale: null
+            sale: null,
           },
           {
             gender: "women",
@@ -185,7 +185,7 @@ class App extends Component {
             sizes: ["m"],
             type: "sweatshirt",
             price: 98,
-            sale: null
+            sale: null,
           },
           {
             gender: "women",
@@ -199,7 +199,7 @@ class App extends Component {
             sizes: ["xs", "s", "m", "l", "xl"],
             type: "tee",
             price: 38,
-            sale: null
+            sale: null,
           },
           {
             gender: "women",
@@ -213,7 +213,7 @@ class App extends Component {
             sizes: ["xs", "s", "l"],
             type: "tee",
             price: 38,
-            sale: null
+            sale: null,
           },
           {
             gender: "women",
@@ -227,7 +227,7 @@ class App extends Component {
             sizes: ["s", "m"],
             type: "tee",
             price: 38,
-            sale: null
+            sale: null,
           },
           {
             gender: "women",
@@ -241,7 +241,7 @@ class App extends Component {
             sizes: ["xs", "s", "m", "l"],
             type: "tee",
             price: 38,
-            sale: null
+            sale: null,
           },
           {
             gender: "women",
@@ -255,7 +255,7 @@ class App extends Component {
             sizes: ["xs", "s", "m", "l", "xl"],
             type: "tee",
             price: 38,
-            sale: null
+            sale: null,
           },
           {
             gender: "women",
@@ -269,7 +269,7 @@ class App extends Component {
             sizes: ["xs", "s", "m"],
             type: "tee",
             price: 64,
-            sale: null
+            sale: null,
           },
           {
             gender: "women",
@@ -283,7 +283,7 @@ class App extends Component {
             sizes: ["xs", "s", "m", "l", "xl"],
             type: "tee",
             price: 52,
-            sale: null
+            sale: null,
           },
           {
             gender: "women",
@@ -297,7 +297,7 @@ class App extends Component {
             sizes: ["xs", "s", "m", "l"],
             type: "tee",
             price: 38,
-            sale: null
+            sale: null,
           },
           {
             gender: "women",
@@ -311,7 +311,7 @@ class App extends Component {
             sizes: ["xs", "s", "m", "l", "xl"],
             type: "tee",
             price: 52,
-            sale: null
+            sale: null,
           },
           {
             gender: "women",
@@ -325,7 +325,7 @@ class App extends Component {
             sizes: ["s", "m", "l", "xl"],
             type: "pants",
             price: 72,
-            sale: null
+            sale: null,
           },
           {
             gender: "women",
@@ -339,7 +339,7 @@ class App extends Component {
             sizes: ["xs", "s", "m", "l", "xl"],
             type: "sweatshirt",
             price: 38,
-            sale: null
+            sale: null,
           },
           {
             gender: "women",
@@ -353,7 +353,7 @@ class App extends Component {
             sizes: ["s", "m", "l", "xl"],
             type: "tee",
             price: 52,
-            sale: null
+            sale: null,
           },
           {
             gender: "women",
@@ -367,9 +367,9 @@ class App extends Component {
             sizes: ["xs", "s", "m", "l", "xl"],
             type: "tee",
             price: 52,
-            sale: null
-          }
-        ]
+            sale: null,
+          },
+        ],
       },
       men: {
         name: "men",
@@ -389,7 +389,7 @@ class App extends Component {
             sizes: ["m"],
             type: "tee",
             price: 38,
-            sale: 24
+            sale: 24,
           },
           {
             gender: "men",
@@ -403,7 +403,7 @@ class App extends Component {
             sizes: ["s"],
             type: "tee",
             price: 38,
-            sale: 24
+            sale: 24,
           },
           {
             gender: "men",
@@ -417,7 +417,7 @@ class App extends Component {
             sizes: ["xs", "s", "m", "l", "xl"],
             type: "sweatshirt",
             price: 64,
-            sale: 39
+            sale: 39,
           },
           {
             gender: "men",
@@ -431,7 +431,7 @@ class App extends Component {
             sizes: ["xs", "s", "m", "l", "xl"],
             type: "sweatshirt",
             price: 64,
-            sale: 39
+            sale: 39,
           },
           {
             gender: "men",
@@ -445,7 +445,7 @@ class App extends Component {
             sizes: ["s", "m"],
             type: "sweatshirt",
             price: 88,
-            sale: null
+            sale: null,
           },
           {
             gender: "men",
@@ -459,7 +459,7 @@ class App extends Component {
             sizes: ["xs", "s", "m", "xl"],
             type: "sweatshirt",
             price: 88,
-            sale: null
+            sale: null,
           },
           {
             gender: "men",
@@ -473,7 +473,7 @@ class App extends Component {
             sizes: ["s", "m", "l", "xl"],
             type: "sweatshirt",
             price: 88,
-            sale: null
+            sale: null,
           },
           {
             gender: "men",
@@ -487,7 +487,7 @@ class App extends Component {
             sizes: ["s", "m", "l", "xl"],
             type: "sweatshirt",
             price: 88,
-            sale: null
+            sale: null,
           },
           {
             gender: "men",
@@ -501,7 +501,7 @@ class App extends Component {
             sizes: ["s", "m", "l", "xl"],
             type: "sweatshirt",
             price: 88,
-            sale: null
+            sale: null,
           },
           {
             gender: "men",
@@ -515,7 +515,7 @@ class App extends Component {
             sizes: ["s", "m", "l", "xl"],
             type: "pants",
             price: 68,
-            sale: null
+            sale: null,
           },
           {
             gender: "men",
@@ -529,7 +529,7 @@ class App extends Component {
             sizes: ["m"],
             type: "pants",
             price: 68,
-            sale: null
+            sale: null,
           },
           {
             gender: "men",
@@ -543,7 +543,7 @@ class App extends Component {
             sizes: ["s", "m", "l", "xl"],
             type: "sweatshirt",
             price: 64,
-            sale: null
+            sale: null,
           },
           {
             gender: "men",
@@ -557,7 +557,7 @@ class App extends Component {
             sizes: ["m", "l", "xl"],
             type: "sweatshirt",
             price: 64,
-            sale: null
+            sale: null,
           },
           {
             gender: "men",
@@ -571,7 +571,7 @@ class App extends Component {
             sizes: ["s", "m", "l", "xl"],
             type: "sweatshirt",
             price: 64,
-            sale: null
+            sale: null,
           },
           {
             gender: "men",
@@ -585,7 +585,7 @@ class App extends Component {
             sizes: ["s", "m", "l", "xl"],
             type: "sweatshirt",
             price: 64,
-            sale: null
+            sale: null,
           },
           {
             gender: "men",
@@ -599,9 +599,9 @@ class App extends Component {
             sizes: ["m", "l"],
             type: "sweatshirt",
             price: 52,
-            sale: 29
-          }
-        ]
+            sale: 29,
+          },
+        ],
       },
       youth: {
         name: "youth",
@@ -622,7 +622,7 @@ class App extends Component {
             sizes: ["s", "m", "l", "xl"],
             type: "tee",
             price: 28,
-            sale: null
+            sale: null,
           },
           {
             gender: "youth",
@@ -636,7 +636,7 @@ class App extends Component {
             sizes: ["s", "m", "l", "xl"],
             type: "tee",
             price: 28,
-            sale: null
+            sale: null,
           },
           {
             gender: "youth",
@@ -650,7 +650,7 @@ class App extends Component {
             sizes: ["s", "m", "l", "xl"],
             type: "tee",
             price: 28,
-            sale: null
+            sale: null,
           },
           {
             gender: "youth",
@@ -664,7 +664,7 @@ class App extends Component {
             sizes: ["s", "m", "l", "xl"],
             type: "tee",
             price: 28,
-            sale: null
+            sale: null,
           },
           {
             gender: "youth",
@@ -678,7 +678,7 @@ class App extends Component {
             sizes: ["s", "m", "l", "xl"],
             type: "tee",
             price: 28,
-            sale: null
+            sale: null,
           },
           {
             gender: "youth",
@@ -692,7 +692,7 @@ class App extends Component {
             sizes: ["m", "l"],
             type: "sweatshirt",
             price: 48,
-            sale: null
+            sale: null,
           },
           {
             gender: "youth",
@@ -706,7 +706,7 @@ class App extends Component {
             sizes: ["s", "m", "l", "xl"],
             type: "sweatshirt",
             price: 48,
-            sale: null
+            sale: null,
           },
           {
             gender: "youth",
@@ -720,7 +720,7 @@ class App extends Component {
             sizes: ["s", "m", "l", "xl"],
             type: "tee",
             price: 38,
-            sale: null
+            sale: null,
           },
           {
             gender: "youth",
@@ -734,7 +734,7 @@ class App extends Component {
             sizes: ["s", "m", "l", "xl"],
             type: "tee",
             price: 28,
-            sale: null
+            sale: null,
           },
           {
             gender: "youth",
@@ -748,7 +748,7 @@ class App extends Component {
             sizes: ["s", "m", "l", "xl"],
             type: "tee",
             price: 28,
-            sale: null
+            sale: null,
           },
           {
             gender: "youth",
@@ -762,7 +762,7 @@ class App extends Component {
             sizes: ["m", "l"],
             type: "tee",
             price: 28,
-            sale: null
+            sale: null,
           },
           {
             gender: "youth",
@@ -776,9 +776,9 @@ class App extends Component {
             sizes: ["s", "m", "l", "xl"],
             type: "tee",
             price: 28,
-            sale: null
-          }
-        ]
+            sale: null,
+          },
+        ],
       },
       new: {
         name: "new",
@@ -786,8 +786,8 @@ class App extends Component {
           "https://cdn.shopify.com/s/files/1/0863/0656/files/NEW.DESKTOP.BANNER.JPG?v=1585245119",
         firstTitle: "Ne",
         secondTitle: "w",
-        items: []
-      }
+        items: [],
+      },
     };
   }
 
@@ -799,27 +799,36 @@ class App extends Component {
     e.preventDefault();
     if (!loginData.username || !loginData.password) {
       this.setState({
-        errorText: "You must supply a username AND password"
+        errorText: "You must supply a username AND password",
       });
     } else {
       const currentUser = await loginUser(loginData);
       this.setState({
-        currentUser
+        currentUser,
       });
     }
   };
 
   handleRegister = async (e, registerData) => {
     e.preventDefault();
-    if (!registerData.username || !registerData.password) {
+    console.log("from the appjs");
+    if (
+      !registerData.email ||
+      !registerData.password ||
+      !registerData.firstName ||
+      !registerData.lastName
+    ) {
+      console.log("error: You must supply a username AND password");
       this.setState({
-        errorText: "You must supply a username AND password"
+        errorText: "You must supply a username AND password",
       });
     } else {
       const currentUser = await registerUser(registerData);
-      this.setState({
-        currentUser
+
+      await this.setState({
+        currentUser,
       });
+      console.log(this.state.currentUser);
     }
   };
 
@@ -827,14 +836,14 @@ class App extends Component {
     const currentUser = await verifyUser();
     if (currentUser) {
       this.setState({
-        currentUser
+        currentUser,
       });
     }
   };
 
   handleLogout = () => {
     this.setState({
-      currentUser: false
+      currentUser: false,
     });
     localStorage.removeItem("authToken");
   };
@@ -847,7 +856,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Nav />
+        <Nav firstName={this.currentUser} />
         <Route path="/new">
           <Women gender={this.state.new} />
         </Route>
@@ -864,9 +873,17 @@ class App extends Component {
         <Route path="/contactus">
           <ContactUs />
         </Route>
-        <Route path="/login">
-          <Login />
-        </Route>
+        <Route
+          exact
+          path="/login"
+          render={() => (
+            <Login
+              handleLogin={this.handleLogin}
+              handleRegister={this.handleRegister}
+              currentUser={this.currentUser}
+            />
+          )}
+        />
         <Route path="/register">
           <SignUp />
         </Route>

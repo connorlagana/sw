@@ -3,7 +3,6 @@ import profile from "../images/profile.png";
 import cart from "../images/cart.png";
 import { Link } from "react-router-dom";
 
-
 class Nav extends Component {
   constructor(props) {
     super(props);
