@@ -5,7 +5,6 @@ class Login extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentUser: this.props.currentUser,
       firstName: "",
       lastName: "",
       email: "",
@@ -29,84 +28,75 @@ class Login extends Component {
     console.log(this.state);
   };
 
-  registerUser = (e) => {
+  registerUser = async (e) => {
     console.log("registering user...");
-    this.props.handleRegister(e, {
+    await this.props.handleRegister(e, {
       firstName: this.state.firstName,
       lastName: this.state.lastName,
       email: this.state.email,
       password: this.state.password,
     });
+    console.log(this.state);
   };
 
   render() {
     return (
       <div className="Login">
-        {!this.state.currentUser ? (
-          <>
-            {this.state.signIn ? (
-              <button onClick={this.showSignIn}>Don't have an account?</button>
-            ) : (
-              <div className="loginDiv">
-                <div className="loginLeft">
-                  <label id="loginTitle">Sign In</label>
-                  <form
-                    onSubmit={(e) => {
-                      this.props.handleLogin(e, {
-                        username: this.state.username,
-                        password: this.state.password,
-                      });
-                    }}
-                  >
-                    <input type="email" name="email" placeholder="Email" />
-                    <input
-                      type="password"
-                      name="password"
-                      placeholder="Password"
-                    />
-                    <button id="loginSubmit">Submit</button>
-                    <div id="forgotPass">Forgot Password?</div>
-                    <button onClick={this.showSignIn}>
-                      Don't have an account?
-                    </button>
-                  </form>
-                </div>
-
-                <div className="loginLeft">
-                  <label id="loginTitle">Create An Account</label>
-                  <form>
-                    <input
-                      name="firstName"
-                      placeholder="First Name"
-                      onChange={this.handleChange}
-                    />
-                    <input
-                      name="lastName"
-                      placeholder="Last Name"
-                      onChange={this.handleChange}
-                    />
-                    <input
-                      type="email"
-                      name="email"
-                      placeholder="Email"
-                      onChange={this.handleChange}
-                    />
-                    <input
-                      type="password"
-                      name="password"
-                      placeholder="Password"
-                      onChange={this.handleChange}
-                    />
-                    <button onClick={this.registerUser} id="loginSubmit">
-                      Submit
-                    </button>
-                  </form>
-                </div>
-              </div>
-            )}
-          </>
+        {this.state.signIn ? (
+          <button onClick={this.showSignIn}>Already have an account?</button>
         ) : (
-          <div>hello con</div>
+          <div className="loginDiv">
+            <div className="loginLeft">
+              <label id="loginTitle">Sign In</label>
+              <form
+                onSubmit={(e) => {
+                  this.props.handleLogin(e, {
+                    username: this.state.username,
+                    password: this.state.password,
+                  });
+                }}
+              >
+                <input type="email" name="email" placeholder="Email" />
+                <input type="password" name="password" placeholder="Password" />
+                <button id="loginSubmit">Submit</button>
+                <div id="forgotPass">Forgot Password?</div>
+                <button onClick={this.showSignIn}>
+                  Don't have an account?
+                </button>
+              </form>
+            </div>
+
+            <div className="loginLeft">
+              <label id="loginTitle">Create An Account</label>
+              <form>
+                <input
+                  name="firstName"
+                  placeholder="First Name"
+                  onChange={this.handleChange}
+                />
+                <input
+                  name="lastName"
+                  placeholder="Last Name"
+                  onChange={this.handleChange}
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  onChange={this.handleChange}
+                />
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Password"
+                  onChange={this.handleChange}
+                />
+                <button onClick={this.registerUser} id="loginSubmit">
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
         )}
       </div>
     );

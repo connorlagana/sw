@@ -6,16 +6,29 @@ import { Link } from "react-router-dom";
 class Nav extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      currentUser: this.props.currentUser,
+    };
+  }
+
+  componentDidMount() {
+    console.log("nav");
+    console.log(this.state);
+  }
+
+  componentDidUpdate() {
+    console.log("update");
+    console.log(this.state);
   }
 
   render() {
     return (
       <div className="Nav">
-        <div className="topNav">Free shipping Over $90. U.S. Only</div>
+        <div className="topNav">free shipping over $90. u.s. only</div>
         <div className="bottomNav">
           <div className="leftNav">
             <Link to="/" id="subrbanWave">
-              Suburban Wave
+              suburban wave
             </Link>
           </div>
           <div className="centerNav">
@@ -33,10 +46,13 @@ class Nav extends Component {
             </Link>
           </div>
           <div className="rightNav">
-            <Link to="login">
-              <img src={profile} />
-            </Link>
-            <img src={cart} />
+            {!this.state.currentUser ? (
+              <Link to="login">
+                <img src={profile} />
+              </Link>
+            ) : (
+              <img src={cart} />
+            )}
           </div>
         </div>
       </div>

@@ -7,6 +7,7 @@ import Women from "./components/Women/Women.js";
 import WomenIndy from "./components/Women/WomenIndy.js";
 import Footer from "./components/Footer.js";
 import Login from "./components/Login/Login.js";
+import Profile from "./components/Login/Profile.js";
 import SignUp from "./components/Login/SignUp.js";
 import OurStory from "./components/Extra/OurStory.js";
 import PrivacyPolicy from "./components/Extra/PrivacyPolicy.js";
@@ -856,7 +857,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Nav firstName={this.currentUser} />
+        <Nav currentUser={this.state.currentUser} />
         <Route path="/new">
           <Women gender={this.state.new} />
         </Route>
@@ -873,17 +874,29 @@ class App extends Component {
         <Route path="/contactus">
           <ContactUs />
         </Route>
-        <Route
-          exact
-          path="/login"
-          render={() => (
-            <Login
-              handleLogin={this.handleLogin}
-              handleRegister={this.handleRegister}
-              currentUser={this.currentUser}
-            />
-          )}
-        />
+        {!this.state.currentUser ? (
+          <Route
+            exact
+            path="/login"
+            render={() => (
+              <Login
+                handleLogin={this.handleLogin}
+                handleRegister={this.handleRegister}
+              />
+            )}
+          />
+        ) : (
+          <Route
+            exact
+            path="/login"
+            render={() => (
+              <Profile
+                handleLogin={this.handleLogin}
+                handleRegister={this.handleRegister}
+              />
+            )}
+          />
+        )}
         <Route path="/register">
           <SignUp />
         </Route>
