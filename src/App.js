@@ -33,6 +33,8 @@ class App extends Component {
 
     this.state = {
       currentUser: false,
+      redirectProf: "login",
+      redirectCart: "login",
       cuObj: {},
       errorText: "",
       women: {
@@ -875,7 +877,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Nav currentUser={this.state.currentUser} />
+        <Nav
+          redirectProf={this.state.redirectProf}
+          redirectCart={this.state.redirectCart}
+        />
         <Route path="/new">
           <Women gender={this.state.new} />
         </Route>
@@ -892,48 +897,21 @@ class App extends Component {
         <Route path="/contactus">
           <ContactUs />
         </Route>
-        {!this.state.currentUser ? (
-          <div>
-            <Route
-              exact
-              path="/login"
-              render={() => (
-                <Login
-                  handleLogin={this.handleLogin}
-                  handleRegister={this.handleRegister}
-                />
-              )}
+        <Route
+          exact
+          path="/login"
+          render={() => (
+            <Login
+              handleLogin={this.handleLogin}
+              handleRegister={this.handleRegister}
             />
-            <Route
-              exact
-              path="/cart"
-              render={() => (
-                <Login
-                  handleLogin={this.handleLogin}
-                  handleRegister={this.handleRegister}
-                />
-              )}
-            />
-          </div>
-        ) : (
-          <div>
-            <Route
-              exact
-              path="/login"
-              render={() => (
-                <Profile
-                  handleLogin={this.handleLogin}
-                  handleRegister={this.handleRegister}
-                />
-              )}
-            />
-            <Route
-              exact
-              path="/cart"
-              render={() => <Cart currentUser={this.state.currentUser} />}
-            />
-          </div>
-        )}
+          )}
+        />
+        <Route
+          exact
+          path="/cart"
+          render={() => <Cart cuObj={this.state.cuObj} />}
+        />
         <Route path="/register">
           <SignUp />
         </Route>

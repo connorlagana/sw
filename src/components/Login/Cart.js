@@ -5,17 +5,8 @@ class Cart extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentUser: this.props.currentUser,
+      cuObj: this.props.cuObj,
     };
-  }
-  componentDidMount() {
-    console.log("component did mount");
-    console.log(this.state.currentUser.id);
-  }
-
-  componentDidUpdate() {
-    console.log("component did update");
-    console.log(this.state.currentUser.id);
   }
 
   render() {
@@ -23,6 +14,7 @@ class Cart extends Component {
       <div className="Cart">
         <div>Hello World!!!!!!</div>
         <div>Cart is here!</div>
+        <div>{this.state.cuObj.firstName}</div>
       </div>
     );
   }

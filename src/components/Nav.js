@@ -47,13 +47,13 @@ class Nav extends Component {
           </div>
           <div className="rightNav">
             {!this.state.currentUser ? (
-              <Link to="/login">
+              <Link to={`/${this.props.redirectProf}`}>
                 <img src={profile} />
               </Link>
             ) : (
               <img src={cart} />
             )}
-            <Link to="/cart">
+            <Link to={`/${this.props.redirectCart}`}>
               <img src={cart} />
             </Link>
           </div>
