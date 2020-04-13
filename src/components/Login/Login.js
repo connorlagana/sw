@@ -44,13 +44,13 @@ class Login extends Component {
       <div className="Login">
         {this.state.signIn ? (
           <div className="loginDiv">
-            <div>
+            <div className="loginLeft">
               <label id="loginTitle">Sign In</label>
               <button onClick={this.showSignIn} id="loginSubmit">
                 Register
               </button>
             </div>
-            <div>
+            <div className="loginLeft">
               <label id="loginTitle">Create An Account</label>
               <form>
                 <input
@@ -99,9 +99,9 @@ class Login extends Component {
                 <div id="forgotPass">Forgot Password?</div>
               </form>
             </div>
-            <div className="loginRight">
+            <div className="loginLeft">
               <label id="loginTitle">Create An Account</label>
-              <button onClick={this.showSignIn} id="loginSubmit">
+              <button onClick={this.showSignIn} id="loginRegister">
                 Register
               </button>
             </div>
