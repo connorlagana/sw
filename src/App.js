@@ -16,7 +16,12 @@ import Shipping from "./components/Extra/Shipping.js";
 
 import { allPosts } from "./services/api_helper.js";
 
-import { loginUser, registerUser, verifyUser, userDetails } from "./services/api_helper";
+import {
+  loginUser,
+  registerUser,
+  verifyUser,
+  userDetails,
+} from "./services/api_helper";
 
 import womenHeroPic from "./images/womenHero.jpg";
 import menHeroPic from "./images/menHero.jpg";
@@ -28,6 +33,7 @@ class App extends Component {
 
     this.state = {
       currentUser: false,
+      cuObj: {},
       errorText: "",
       women: {
         name: "women",
@@ -811,6 +817,16 @@ class App extends Component {
     }
   };
 
+  getUserDetails = async () => {
+    const retDat = await userDetails(this.state.currentUser.id);
+    console.log("ooh this shit be hittin different");
+    await this.setState({
+      cuObj: retDat.data,
+    });
+
+    console.log(this.state);
+  };
+
   handleRegister = async (e, registerData) => {
     e.preventDefault();
     console.log("from the appjs");
@@ -831,6 +847,7 @@ class App extends Component {
         currentUser,
       });
       console.log(this.state.currentUser);
+      this.getUserDetails();
     }
   };
 

@@ -5,23 +5,23 @@ import axios from "axios";
 // });
 
 const api = axios.create({
-  baseURL: "http://localhost:3000"
+  baseURL: "http://localhost:3000",
 });
 
 // AUTH API_HELPER API CALLS
 
-const api_helper = resp => {
+const api_helper = (resp) => {
   localStorage.setItem("authToken", resp.data.token);
   api.defaults.headers.common.authorization = `Bearer ${resp.data.token}`;
   return resp.data.user;
 };
 
-export const loginUser = async loginData => {
+export const loginUser = async (loginData) => {
   const resp = await api.post("/users/login", loginData);
   return api_helper(resp);
 };
 
-export const registerUser = async registerData => {
+export const registerUser = async (registerData) => {
   const resp = await api.post("/users/register", registerData);
   return api_helper(resp);
 };
@@ -36,7 +36,7 @@ export const verifyUser = async () => {
   return false;
 };
 
-export const userDetails = async userId => {
+export const userDetails = async (userId) => {
   const resp = await api.get(`/users/${userId}`);
   return resp;
 };
@@ -52,18 +52,18 @@ export const allPosts = async () => {
   return resp.data;
 };
 
-export const newPost = async newPost => {
+export const newPost = async (newPost) => {
   const resp = await api.post("/posts", newPost);
   return resp.data;
 };
 
-export const deletePost = async id => {
+export const deletePost = async (id) => {
   console.log(id);
   const resp = await api.delete(`/posts/${id}`);
   return resp.data;
 };
 
-export const showPost = async id => {
+export const showPost = async (id) => {
   const resp = await api.get(`/posts/${id}`);
   return resp.data;
 };
@@ -73,19 +73,19 @@ export const updatePost = async (id, updateData) => {
   return resp.data;
 };
 
-export const postDetails = async id => {
+export const postDetails = async (id) => {
   const resp = await api.get(`/posts/user/${id}`);
   return resp;
 };
 
 // NEW COMMENT API_HELPER API CALLS
 
-export const newComment = async newPost => {
+export const newComment = async (newPost) => {
   const resp = await api.post("/comments", newPost);
   return resp.data;
 };
 
-export const deletComment = async id => {
+export const deletComment = async (id) => {
   const resp = await api.delete(`/comments/${id}`);
   return resp.data;
 };
@@ -95,7 +95,7 @@ export const showComment = async () => {
   return resp.data;
 };
 
-export const showCommentPost = async postId => {
+export const showCommentPost = async (postId) => {
   const resp = await api.get(`/comments/allComments/${postId}`);
   return resp.data;
 };
@@ -107,7 +107,7 @@ export const updateComment = async (id, updateData) => {
 
 // CRUD FOLLOWERS API CALLS
 
-export const getFollowers = async id => {
+export const getFollowers = async (id) => {
   const resp = await api.get(`/users/followers/${id}`);
   return resp.data;
 };
