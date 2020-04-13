@@ -43,30 +43,14 @@ class Login extends Component {
     return (
       <div className="Login">
         {this.state.signIn ? (
-          <button onClick={this.showSignIn}>Already have an account?</button>
-        ) : (
           <div className="loginDiv">
-            <div className="loginLeft">
+            <div>
               <label id="loginTitle">Sign In</label>
-              <form
-                onSubmit={(e) => {
-                  this.props.handleLogin(e, {
-                    username: this.state.username,
-                    password: this.state.password,
-                  });
-                }}
-              >
-                <input type="email" name="email" placeholder="Email" />
-                <input type="password" name="password" placeholder="Password" />
-                <button id="loginSubmit">Submit</button>
-                <div id="forgotPass">Forgot Password?</div>
-                <button onClick={this.showSignIn}>
-                  Don't have an account?
-                </button>
-              </form>
+              <button onClick={this.showSignIn} id="loginSubmit">
+                Register
+              </button>
             </div>
-
-            <div className="loginLeft">
+            <div>
               <label id="loginTitle">Create An Account</label>
               <form>
                 <input
@@ -95,6 +79,31 @@ class Login extends Component {
                   Submit
                 </button>
               </form>
+            </div>
+          </div>
+        ) : (
+          <div className="loginDiv">
+            <div className="loginLeft">
+              <label id="loginTitle">Sign In</label>
+              <form
+                onSubmit={(e) => {
+                  this.props.handleLogin(e, {
+                    username: this.state.username,
+                    password: this.state.password,
+                  });
+                }}
+              >
+                <input type="email" name="email" placeholder="Email" />
+                <input type="password" name="password" placeholder="Password" />
+                <button id="loginSubmit">Submit</button>
+                <div id="forgotPass">Forgot Password?</div>
+              </form>
+            </div>
+            <div className="loginRight">
+              <label id="loginTitle">Create An Account</label>
+              <button onClick={this.showSignIn} id="loginSubmit">
+                Register
+              </button>
             </div>
           </div>
         )}
