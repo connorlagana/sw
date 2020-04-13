@@ -824,6 +824,8 @@ class App extends Component {
     console.log("ooh this shit be hittin different");
     await this.setState({
       cuObj: retDat.data,
+      redirectCart: "cart",
+      redirectProf: "profile",
     });
 
     console.log(this.state);
