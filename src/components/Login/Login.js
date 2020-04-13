@@ -46,8 +46,8 @@ class Login extends Component {
           <div className="loginDiv">
             <div className="loginLeft">
               <div id="loginTitle">Sign In</div>
-              <button onClick={this.showSignIn} id="loginSubmit">
-                Register
+              <button onClick={this.showSignIn} id="leftSignSubmit">
+                Sign In
               </button>
             </div>
             <div className="loginLeft">
@@ -76,7 +76,7 @@ class Login extends Component {
                   onChange={this.handleChange}
                 />
                 <button onClick={this.registerUser} id="loginSubmit">
-                  Submit
+                  Register
                 </button>
               </form>
             </div>
