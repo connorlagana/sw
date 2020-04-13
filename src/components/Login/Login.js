@@ -45,7 +45,7 @@ class Login extends Component {
         {this.state.signIn ? (
           <div className="loginDiv">
             <div className="loginLeft">
-              <label id="loginTitle">Sign In</label>
+              <div id="loginTitle">Sign In</div>
               <button onClick={this.showSignIn} id="loginSubmit">
                 Register
               </button>
@@ -84,7 +84,7 @@ class Login extends Component {
         ) : (
           <div className="loginDiv">
             <div className="loginLeft">
-              <label id="loginTitle">Sign In</label>
+              <div id="loginTitle">Sign In</div>
               <form
                 onSubmit={(e) => {
                   this.props.handleLogin(e, {
@@ -99,8 +99,8 @@ class Login extends Component {
                 <div id="forgotPass">Forgot Password?</div>
               </form>
             </div>
-            <div className="loginLeft">
-              <label id="loginTitle">Create An Account</label>
+            <div className="loginRight">
+              <div id="loginTitle">Create An Account</div>
               <button onClick={this.showSignIn} id="loginRegister">
                 Register
               </button>

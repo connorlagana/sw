@@ -7,6 +7,7 @@ import Women from "./components/Women/Women.js";
 import WomenIndy from "./components/Women/WomenIndy.js";
 import Footer from "./components/Footer.js";
 import Login from "./components/Login/Login.js";
+import Cart from "./components/Login/Cart.js";
 import Profile from "./components/Login/Profile.js";
 import SignUp from "./components/Login/SignUp.js";
 import OurStory from "./components/Extra/OurStory.js";
@@ -15,7 +16,7 @@ import Shipping from "./components/Extra/Shipping.js";
 
 import { allPosts } from "./services/api_helper.js";
 
-import { loginUser, registerUser, verifyUser } from "./services/api_helper";
+import { loginUser, registerUser, verifyUser, userDetails } from "./services/api_helper";
 
 import womenHeroPic from "./images/womenHero.jpg";
 import menHeroPic from "./images/menHero.jpg";
@@ -875,27 +876,46 @@ class App extends Component {
           <ContactUs />
         </Route>
         {!this.state.currentUser ? (
-          <Route
-            exact
-            path="/login"
-            render={() => (
-              <Login
-                handleLogin={this.handleLogin}
-                handleRegister={this.handleRegister}
-              />
-            )}
-          />
+          <div>
+            <Route
+              exact
+              path="/login"
+              render={() => (
+                <Login
+                  handleLogin={this.handleLogin}
+                  handleRegister={this.handleRegister}
+                />
+              )}
+            />
+            <Route
+              exact
+              path="/cart"
+              render={() => (
+                <Login
+                  handleLogin={this.handleLogin}
+                  handleRegister={this.handleRegister}
+                />
+              )}
+            />
+          </div>
         ) : (
-          <Route
-            exact
-            path="/login"
-            render={() => (
-              <Profile
-                handleLogin={this.handleLogin}
-                handleRegister={this.handleRegister}
-              />
-            )}
-          />
+          <div>
+            <Route
+              exact
+              path="/login"
+              render={() => (
+                <Profile
+                  handleLogin={this.handleLogin}
+                  handleRegister={this.handleRegister}
+                />
+              )}
+            />
+            <Route
+              exact
+              path="/cart"
+              render={() => <Cart currentUser={this.state.currentUser} />}
+            />
+          </div>
         )}
         <Route path="/register">
           <SignUp />

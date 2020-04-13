@@ -845,7 +845,6 @@
   font-weight: 600;
   font-size: 2vh;
   font-family: "Source Sans Pro", sans-serif;
-  // background-color: yellow;
 
   & .loginDiv {
     display: flex;
@@ -855,7 +854,34 @@
 
     width: 80vw;
     height: 50vh;
-    // background-color: purple;
+
+    & .loginRight {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      width: 22vw;
+      height: 50vh;
+
+      & #loginTitle {
+        font-size: 3.2vh;
+        margin-bottom: 1vw;
+        margin-top: 2vh;
+      }
+      & #loginRegister {
+        height: 2vw;
+        width: 8vw;
+        margin: 1vh 0 1vh 0;
+        border: none;
+        background-color: rgb(95, 95, 95);
+        color: white;
+        font-size: 1.2vw;
+        text-transform: uppercase;
+        font-weight: 700;
+        transition: 0.3s;
+        cursor: pointer;
+      }
+    }
 
     & .loginLeft {
       display: flex;
@@ -877,8 +903,6 @@
         flex-direction: column;
         height: 40vh;
 
-        // background-color: red;
-
         & input {
           border: none;
           background-color: rgb(240, 240, 240);
@@ -886,6 +910,7 @@
           width: 17vw;
           margin-bottom: 1vh;
           font-size: 2vh;
+          padding-left: 1vh;
         }
 
         & input:active {
@@ -909,20 +934,6 @@
         & #loginSubmit:hover {
           background-color: black;
         }
-      }
-
-      & #loginRegister {
-        height: 2vw;
-        width: 8vw;
-        margin: 1vh 0 1vh 0;
-        border: none;
-        background-color: rgb(95, 95, 95);
-        color: white;
-        font-size: 1.2vw;
-        text-transform: uppercase;
-        font-weight: 700;
-        transition: 0.3s;
-        cursor: pointer;
       }
     }
   }

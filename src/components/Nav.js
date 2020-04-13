@@ -47,12 +47,15 @@ class Nav extends Component {
           </div>
           <div className="rightNav">
             {!this.state.currentUser ? (
-              <Link to="login">
+              <Link to="/login">
                 <img src={profile} />
               </Link>
             ) : (
               <img src={cart} />
             )}
+            <Link to="/cart">
+              <img src={cart} />
+            </Link>
           </div>
         </div>
       </div>
