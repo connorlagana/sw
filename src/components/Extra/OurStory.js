@@ -19,7 +19,7 @@ function OurStory() {
         <div className="fosr">
           <img src={secondPic} />
           <label>Life</label>
-        </div>
+        </div>fosl
       </div>
 
       <div className="secondOS">

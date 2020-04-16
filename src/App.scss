@@ -973,7 +973,6 @@
 }
 
 .Payment {
-  background-color: yellow;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -988,14 +987,32 @@
   }
 
   & .payRight {
-    background-color: rgb(126, 148, 214);
     width: 45vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    & img {
-      height: 80vh;
-      width: 38vw;
-      object-fit: cover;
+    & .payPicDiv {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      & img {
+        height: 80vh;
+        width: 38vw;
+        position: relative;
+        object-fit: cover;
+      }
+      & #stayWavy {
+        position: absolute;
+        color: rgb(255, 255, 255);
+        font-size: 7vw;
+        font-weight: 600;
+        font-family: "Liu Jian Mao Cao", cursive;
+        padding: 1vw;
+        transition: all 0.5s;
+        margin-top: 2vh;
+      }
     }
   }
 }

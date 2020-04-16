@@ -13,6 +13,7 @@ class Payment extends Component {
         <div className="payRight">
           <div className="payPicDiv">
             <img src={told1} />
+            <div id="stayWavy">Stay Wavy</div>
           </div>
         </div>
       </div>
