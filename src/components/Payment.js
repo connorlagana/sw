@@ -11,7 +11,7 @@ class Payment extends Component {
       <div className="Payment">
         <div className="payLeft">
           <div className="grayDiv">
-            <form>
+            <form className="firstForm">
               <input
                 name="firstName"
                 placeholder="First Name"
@@ -90,6 +90,36 @@ class Payment extends Component {
                 <option value="WI">Wisconsin</option>
                 <option value="WY">Wyoming</option>
               </select>
+              <input
+                name="zip"
+                placeholder="Zip Code"
+                onChange={this.handleChange}
+              />
+            </form>
+            <div>
+              <div>Your Order</div>
+              <div>Total: $98.97</div>
+            </div>
+
+            <form className="secondForm">
+              <input
+                name="cardNum"
+                placeholder="Credit Card Number"
+                onChange={this.handleChange}
+              />
+              <input
+                name="cardNum"
+                placeholder="Security Code"
+                onChange={this.handleChange}
+              />
+              <input
+                name="cardNum"
+                placeholder="Credit Card Number"
+                onChange={this.handleChange}
+              />
+              <select></select>
+              <select></select>
+              <button>Place Order</button>
             </form>
           </div>
         </div>

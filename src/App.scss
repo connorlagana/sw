@@ -992,6 +992,24 @@
       height: 80vh;
       width: 30vw;
       background-color: rgb(199, 197, 197);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      & .firstForm {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 40vh;
+        background-color: green;
+        width: 100%;
+      }
+
+      & .secondForm {
+        
+      }
     }
   }
 
@@ -1013,7 +1031,7 @@
         position: relative;
         object-fit: cover;
       }
-      
+
       & #stayWavy {
         position: absolute;
         color: rgb(255, 255, 255);
