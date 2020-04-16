@@ -981,9 +981,18 @@
   flex-direction: row;
 
   & .payLeft {
-    background-color: rgb(211, 119, 176);
+    // background-color: rgb(211, 119, 176);
     width: 45vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .grayDiv {
+      height: 80vh;
+      width: 30vw;
+      background-color: rgb(199, 197, 197);
+    }
   }
 
   & .payRight {
@@ -997,12 +1006,14 @@
       display: flex;
       justify-content: center;
       align-items: flex-start;
+
       & img {
         height: 80vh;
         width: 38vw;
         position: relative;
         object-fit: cover;
       }
+      
       & #stayWavy {
         position: absolute;
         color: rgb(255, 255, 255);
