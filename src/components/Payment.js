@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import told1 from "../images/fs/told1.jpg";
 
 class Payment extends Component {
   constructor(props) {
@@ -8,7 +9,12 @@ class Payment extends Component {
   render() {
     return (
       <div className="Payment">
-        <div>Hello World this is payment</div>
+        <div className="payLeft"></div>
+        <div className="payRight">
+          <div className="payPicDiv">
+            <img src={told1} />
+          </div>
+        </div>
       </div>
     );
   }
