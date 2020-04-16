@@ -3,6 +3,7 @@ import "./App.scss";
 import { Route } from "react-router-dom";
 import Nav from "./components/Nav.js";
 import Hero from "./components/Hero.js";
+import Payment from "./components/Payment.js";
 import Women from "./components/Women/Women.js";
 import WomenIndy from "./components/Women/WomenIndy.js";
 import Footer from "./components/Footer.js";
@@ -23,8 +24,8 @@ import {
   userDetails,
 } from "./services/api_helper";
 
-import womenHeroPic from "./images/womenHero.jpg";
-import menHeroPic from "./images/menHero.jpg";
+import womenHeroPic from "./images/womenHeroPic.png";
+import menHeroPic from "./images/menHeroPic.png";
 import ContactUs from "./components/Contact";
 
 class App extends Component {
@@ -933,6 +934,9 @@ class App extends Component {
             return <WomenIndy title={props.match.params.id} />;
           }}
         /> */}
+        <Route path="/pay">
+          <Payment />
+        </Route>
         <Footer />
       </div>
     );

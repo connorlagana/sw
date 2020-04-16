@@ -94,10 +94,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 40vw;
   }
 
   & img {
-    width: 45vw;
+    width: 39vw;
     height: 84vh;
     margin: 0.5vw;
     position: relative;
@@ -926,8 +927,8 @@
           padding-left: 1vh;
         }
 
-        & input:active {
-          border: none;
+        & input:focus {
+          outline: none;
         }
 
         & #loginSubmit {
@@ -946,6 +947,25 @@
 
         & #loginSubmit:hover {
           background-color: black;
+        }
+
+        & .checkboxDiv {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          width: 17.5vw;
+
+          & .innerDivCB {
+            width: 2vw;
+
+            & #checkbox {
+            }
+          }
+
+          & #subscribeLabel {
+            font-size: 0.8vw;
+          }
         }
       }
     }

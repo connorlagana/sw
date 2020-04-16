@@ -10,6 +10,7 @@ class Login extends Component {
       email: "",
       password: "",
       signIn: false,
+      subscribed: false,
     };
   }
 
@@ -37,6 +38,12 @@ class Login extends Component {
       password: this.state.password,
     });
     console.log(this.state);
+  };
+
+  handleCheck = async () => {
+    await this.setState({
+      subscribed: !this.state.subscribed,
+    });
   };
 
   render() {
@@ -75,6 +82,18 @@ class Login extends Component {
                   placeholder="Password"
                   onChange={this.handleChange}
                 />
+                <div className="checkboxDiv">
+                  <div className="innerDivCB">
+                    <input
+                      id="checkbox"
+                      type="checkbox"
+                      onClick={this.handleCheck}
+                    />
+                  </div>
+                  <label id="subscribeLabel">
+                    Subscribe to stay updated with new products and offers!
+                  </label>
+                </div>
                 <button onClick={this.registerUser} id="loginSubmit">
                   Register
                 </button>
