@@ -3,11 +3,13 @@ import { Route, Link } from "react-router-dom";
 
 import WomenIndy from "./WomenIndy.js";
 
+
+
 class WomenItems extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      gender: props.gender
+      gender: props.gender,
     };
   }
   render(props) {
@@ -19,13 +21,13 @@ class WomenItems extends Component {
         </div>
         <div className="items">
           {this.state.gender.items &&
-            this.state.gender.items.map(item => (
+            this.state.gender.items.map((item) => (
               <div className="itemInd">
                 <Link to={`/${item.id}`}>
                   <img
                     src={item.firstPic}
-                    onMouseOver={e => (e.currentTarget.src = item.secondPic)}
-                    onMouseOut={e => (e.currentTarget.src = item.firstPic)}
+                    onMouseOver={(e) => (e.currentTarget.src = item.secondPic)}
+                    onMouseOut={(e) => (e.currentTarget.src = item.firstPic)}
                   />
                 </Link>
                 <div className="bottomInd">

@@ -35,7 +35,7 @@ class App extends Component {
     this.state = {
       currentUser: false,
       redirectProf: "login",
-      redirectCart: "login",
+      redirectCart: "cart",
       cuObj: {},
       errorText: "",
       women: {
