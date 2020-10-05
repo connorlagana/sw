@@ -5,6 +5,7 @@ import { animateScroll as scroll } from "react-scroll";
 class Footer extends Component {
   constructor(props) {
     super(props);
+    this.state = {};
   }
 
   scrollToTop() {
@@ -34,13 +35,17 @@ class Footer extends Component {
                 <Link to="/contactus" id="lftLink" onClick={this.scrollToTop}>
                   Terms & Conditions
                 </Link>
-                <Link to="/privacy-policy" id="lftLink" onClick={this.scrollToTop}>
+                <Link
+                  to="/privacy-policy"
+                  id="lftLink"
+                  onClick={this.scrollToTop}
+                >
                   Privacy Policy
                 </Link>
               </div>
             </div>
             <div className="lftDiv">
-              <div id="lftTitle" >About Us</div>
+              <div id="lftTitle">About Us</div>
               <div className="lftUnder">
                 <Link to="/ourstory" id="lftLink" onClick={this.scrollToTop}>
                   Our Story

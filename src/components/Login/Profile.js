@@ -1,9 +1,12 @@
 import React, { Component } from "react";
-import { Link, Route, Redirect } from "react-router-dom";
+// import { Link, Route, Redirect } from "react-router-dom";
 
 class Profile extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      
+    }
   }
 
   render() {

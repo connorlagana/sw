@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import secondPic from "../../images/OurStory/girlsAbout.jpg";
 import firstPic from "../../images/OurStory/goodVibesAbout.jpg";
 import surfer from "../../images/OurStory/surfer.jpg";
@@ -6,24 +6,23 @@ import jumping from "../../images/OurStory/jumping.jpg";
 import beachRoad from "../../images/OurStory/beachRoad.jpg";
 import { withRouter } from "react-router-dom";
 
-import Fade from "react-reveal/Fade";
-
 function OurStory() {
   return (
     <div className="OurStory">
       <div className="firstOS">
         <div className="fosl">
-          <img src={firstPic} />
+          <img src={firstPic} alt="first" />
           <label>Wave</label>
         </div>
         <div className="fosr">
-          <img src={secondPic} />
+          <img src={secondPic} alt="second" />
           <label>Life</label>
-        </div>fosl
+        </div>
+        fosl
       </div>
 
       <div className="secondOS">
-        <img src={surfer} />
+        <img src={surfer} alt="surfer" />
         <div className="sosr">
           <label>What's the wave?</label>
           <div className="tnl">
@@ -66,9 +65,9 @@ function OurStory() {
           </div>
         </div>
         <div className="tosr">
-          <img src={jumping} id="jumpingGirl" />
+          <img src={jumping} id="jumpingGirl" alt="jump" />
           <div className="overPic">
-            <img src={beachRoad} id="beachRoad" />
+            <img src={beachRoad} id="beachRoad" alt="road" />
           </div>
         </div>
       </div>

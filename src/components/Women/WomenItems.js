@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import { Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-import WomenIndy from "./WomenIndy.js";
-
-
+// import WomenIndy from "./WomenIndy.js";
 
 class WomenItems extends Component {
   constructor(props) {
@@ -25,6 +23,7 @@ class WomenItems extends Component {
               <div className="itemInd">
                 <Link to={`/${item.id}`}>
                   <img
+                    alt="first pic"
                     src={item.firstPic}
                     onMouseOver={(e) => (e.currentTarget.src = item.secondPic)}
                     onMouseOut={(e) => (e.currentTarget.src = item.firstPic)}
